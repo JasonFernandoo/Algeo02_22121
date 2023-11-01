@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --bg-color: #010718;
+    --main-color: #4070F4;
+    --text-color: #ffffff;
+    --other-text-color: #000;
+}
+
+body{
+    background: var(--bg-color);
+}
+
+section {
+    padding: 120px 5% 100px;
+}
