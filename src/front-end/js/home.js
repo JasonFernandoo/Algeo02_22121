@@ -1,6 +1,7 @@
 const text = document.querySelector(".title-text");
 
 const textLoad = () => {
+    // fungsi judul ketikan
     setTimeout(() => {
         text.textContent = "Tugas Besar Algeo";
     }, 0);

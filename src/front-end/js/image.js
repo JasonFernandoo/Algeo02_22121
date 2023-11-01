@@ -4,9 +4,16 @@ const imageView = document.getElementById("view-img");
 
 inputFile.addEventListener("change", uploadImage);
 
+let fileName = document.getElementById("file-name");
+
 function uploadImage(){
+    //fungsi memunculkan gambar yang diinput
     let imgLink = URL.createObjectURL(inputFile.files[0]);
     imageView.style.backgroundImage = `url(${imgLink}`;
     imageView.textContent = "";
     imageView.style.border = 0;
+    // fungsi memunculkan nama file image
+    fileName.textContent = inputFile.files[0].name;
 }
+
+

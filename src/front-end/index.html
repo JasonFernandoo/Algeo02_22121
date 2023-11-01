@@ -16,6 +16,7 @@
     <!--js files-->
     <script src="../front-end/js/home.js" defer></script>
     <script src="../front-end/js/image.js" defer></script>
+    <script src="../front-end/js/toggle.js" defer></script>
 
 
 </head>
@@ -23,24 +24,27 @@
     <!--Preloader-->
     <div id="preloader"></div>
 
-    <!--home-->
+    <!--home section-->
     <section class="home" id="home">
+        <!--tulisan di home section-->
         <div class="home-text">
             <span class="text title-text"></span>
             <h3>Jonathan Emmanuel Saragih / 13522121</h3>
             <h3>Attara Majesta Ayub / 13522139</h3>
             <h3>Jason Fernando / 13522156</h3>
         </div>
+        <!--gambar di home section-->
         <div class="home-photo">
             <img src="../front-end/images/home_photo.png" alt="team-photo">
         </div>
     </section>
 
-    <!--image-search-->
+    <!--image-search section-->
     <section class="image" id="image">
         <div class="container">
             <h2 class="img">Reverse Image Search</h2>
             <form> 
+                <!--input gambar-->
                 <div class="input-img">
                     <label for="input-file" id="drop-area">
                         <input type="file" accept="image/*" id="input-file" hidden>
@@ -50,8 +54,18 @@
                         </div>
                     </label>
                 </div>
+                <!--mencari gambar-->
                 <div class="search-img">
-
+                    <h2 class="img">File Name :</h2>
+                    <figcaption id="file-name">No file chosen</figcaption>
+                    <div id="toggle" class="color">
+                        <i class="indicator"></i>
+                        <div class="toggle-text">
+                            <p class="color">color</p>
+                            <p class="texture">texture</p>
+                        </div>
+                    </div>
+                    <button id="search" class="search">Search</button>
                 </div>
             </form>
         </div>
