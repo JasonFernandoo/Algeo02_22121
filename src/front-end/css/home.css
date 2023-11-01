@@ -1,8 +1,7 @@
 .home{
     position: relative;
-    min-height: 100vh;
+    min-height: 80vh;
     width: auto;
-    background-size: 160%;
     display: flex;
     align-items: center;
     justify-content:space-between;

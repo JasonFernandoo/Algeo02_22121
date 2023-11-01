@@ -12,8 +12,10 @@
     <!--css file-->
     <link rel="stylesheet" type="text/css" href="../front-end/css/style.css">
     <link rel="stylesheet" type="text/css" href="../front-end/css/home.css">
+    <link rel="stylesheet" type="text/css" href="../front-end/css/image.css">
     <!--js files-->
     <script src="../front-end/js/home.js" defer></script>
+    <script src="../front-end/js/image.js" defer></script>
 
 
 </head>
@@ -36,7 +38,23 @@
 
     <!--image-search-->
     <section class="image" id="image">
-        
+        <div class="container">
+            <h2 class="img">Reverse Image Search</h2>
+            <form> 
+                <div class="input-img">
+                    <label for="input-file" id="drop-area">
+                        <input type="file" accept="image/*" id="input-file" hidden>
+                        <div class="view-img" id="view-img">
+                            <img src="../front-end/images/upload.png">
+                            <p class="img">Drag and drop or click <br> to upload image</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="search-img">
+
+                </div>
+            </form>
+        </div>
     </section>
 
 </body>

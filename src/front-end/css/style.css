@@ -23,3 +23,7 @@ body{
 section {
     padding: 120px 5% 100px;
 }
+
+#image {
+    height: 100vh;
+}
