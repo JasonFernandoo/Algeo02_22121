@@ -15,5 +15,13 @@ function uploadImage(){
     // fungsi memunculkan nama file image
     fileName.textContent = inputFile.files[0].name;
 }
-
+//fungsi drop image
+dropArea.addEventListener("dragover", function(e){
+    e.preventDefault();
+});
+dropArea.addEventListener("drop", function(e){
+    e.preventDefault();
+    inputFile.files = e.dataTransfer.files;
+    uploadImage();
+});
 
