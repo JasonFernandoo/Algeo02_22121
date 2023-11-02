@@ -48,6 +48,11 @@
     font-family:'Poppins', sans-serif ;
     padding-top: 5px;
 }
+.firsth3 {
+    color: var(--text-color);
+    font-family:'Poppins', sans-serif ;
+    margin-top: 20px;
+}
 
 /* css home photo */
 .home-photo img{
