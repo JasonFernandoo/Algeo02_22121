@@ -16,11 +16,13 @@
     <link rel="stylesheet" type="text/css" href="../front-end/css/image.css">
     <link rel="stylesheet" type="text/css" href="../front-end/css/about.css">
     <link rel="stylesheet" type="text/css" href="../front-end/css/description.css">
+    <link rel="stylesheet" type="text/css" href="../front-end/css/result.css">
     <!--js files-->
     <script src="../front-end/js/home.js" defer></script>
     <script src="../front-end/js/image.js" defer></script>
     <script src="../front-end/js/toggle.js" defer></script>
     <script src="../front-end/js/reveal.js" defer></script>
+    <script src="../front-end/js/result.js" defer></script>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--preloader-->
@@ -137,11 +139,17 @@
                             <p class="texture">texture</p>
                         </div>
                     </div>
-                    <button id="search" class="search">Search</button>
+                    <button type="button" onclick="showResult()" id="search" class="search">Search</button>
                 </div>
             </form>
         </div>
     </section>
 
+    <!--result section-->
+    <div class="result-tab" id="result-tab">
+        <div class="logo"></div>
+        <div class="result-info" id="result-info"></div>
+        <button type="button" class="result-button" id="result-button">Upload</button>
+    </div>
 </body>
 </html>
