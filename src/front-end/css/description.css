@@ -31,8 +31,26 @@
 }
 .how-to-p {
     text-align: justify;
-    margin-top: 10px;
+    margin-top: 20px;
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
     font-size: 1.25rem;
+}
+.product-name{
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
+    font-family: 'Pacifico', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.25rem;
+}
+.sub {
+    text-align: justify;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-size: 1.25rem;
+    margin-left: 25px;
 }

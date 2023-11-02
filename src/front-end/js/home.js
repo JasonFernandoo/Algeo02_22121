@@ -6,7 +6,7 @@ const textLoad = () => {
         text.textContent = "Tugas Besar Algeo";
     }, 0);
     setTimeout(() => {
-        text.textContent = "Google Lens";
+        text.textContent = "Now You See Us";
     }, 5000);
 }
 
