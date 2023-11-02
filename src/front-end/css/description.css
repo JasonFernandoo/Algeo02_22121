@@ -12,11 +12,11 @@
 }
 .desc-h1 {
     background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Pacifico', sans-serif;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    width: 40%;
+    width: 45%;
 }
 .how-to {
     height: 20%;
