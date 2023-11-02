@@ -75,15 +75,16 @@
   .card-body .card-title{
     text-transform: capitalize;
     color: var(--main-color);
-    font-size: 2rem;
+    font-size: 3rem;
     font-weight: 600;
   }
   .card-body .card-sub{
     text-transform: capitalize;
-    font-size: 1.2rem;
+    font-size: 2rem;
     font-weight: 300;
   }
   .card-body .card-info{
+    text-align: justify;
     font-size: 1.05rem;
     line-height: 25px;
     margin: 40px 0;
