@@ -24,4 +24,3 @@ dropArea.addEventListener("drop", function(e){
     inputFile.files = e.dataTransfer.files;
     uploadImage();
 });
-
