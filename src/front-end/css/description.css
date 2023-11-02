@@ -1,0 +1,38 @@
+.description {
+    position: relative;
+    min-height: 10vh;
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    height: 20%;
+}
+.desc-h1 {
+    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
+    font-family: 'Poppins', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    width: 40%;
+}
+.how-to {
+    height: 20%;
+    margin-top: 30px;
+}
+.product-p {
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+.how-to-p {
+    text-align: justify;
+    margin-top: 10px;
+    font-family: 'Poppins', sans-serif;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
