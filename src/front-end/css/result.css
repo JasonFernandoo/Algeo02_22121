@@ -44,7 +44,6 @@
     border-bottom: 2px solid #b9b9b9;
     display: flex;
     flex-direction: row;
-    gap: 75%;
 }
 .time-result p {
     background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
@@ -53,6 +52,12 @@
     -webkit-text-fill-color: transparent;
     font-size: 1.5rem;
     font-weight: 600;
+}
+.res {
+    width: 75%;
+}
+.time {
+    width: 25%;
 }
 .img-result {
     height: 88%;
