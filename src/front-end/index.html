@@ -1,3 +1,5 @@
+{% extends 'base.html' %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -116,7 +118,7 @@
     <section class="image" id="image">
         <div class="container">
             <h2 class="img">REVERSE IMAGE SEARCH</h2>
-            <form> 
+            <form action="/" method="POST"> 
                 <!--input gambar-->
                 <div class="input-img">
                     <label for="input-file" id="drop-area">
@@ -147,7 +149,17 @@
     <!--result section-->
     <div class="result-tab" id="result-tab">
         <div class="logo"></div>
-        <div class="result-info" id="result-info"></div>
+        <div class="result-info" id="result-info">
+            <div class="time-result" id="time-result">
+                <p>Result :</p>
+                <div class="time">
+                    <p>Time :</p>
+                </div>
+            </div>
+            <div class="img-result" id="img-result">
+
+            </div>
+        </div>
         <button type="button" class="result-button" id="result-button">Upload</button>
     </div>
 </body>
