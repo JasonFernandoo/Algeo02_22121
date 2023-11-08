@@ -15,7 +15,7 @@
 }
 .home-text .text{
     position: relative;
-    font-family:'Pacifico', sans-serif ;
+    font-family:'Kdam Thmor Pro', sans-serif ;
     color: var(--main-color);
     font-size: 4.5rem;
     font-weight: 600;
@@ -46,13 +46,15 @@
 }
 .home h3{
     color: var(--text-color);
-    font-family:'Poppins', sans-serif ;
+    font-family:'Kdam Thmor Pro', sans-serif ;
     padding-top: 5px;
+    word-spacing: 1px;
 }
 .firsth3 {
     color: var(--text-color);
-    font-family:'Poppins', sans-serif ;
+    font-family:'Kdam Thmor Pro', sans-serif ;
     margin-top: 20px;
+    word-spacing: 1px;
 }
 
 /* css home photo */
