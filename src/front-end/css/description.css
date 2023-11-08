@@ -1,6 +1,6 @@
 .description {
     position: relative;
-    min-height: 10vh;
+    min-height: 40vh;
     width: auto;
     padding-top: 5%;
     padding-bottom: 5%;
@@ -29,10 +29,6 @@
     text-align: center;
     margin-top: 1%;
 }
-.how-to {
-    height: 20%;
-    margin-top: 30px;
-}
 .product-p {
     text-align: center;
     margin-top: 10px;
@@ -40,28 +36,96 @@
     color: var(--text-color);
     font-size: 1.25rem;
 }
-.how-to-p {
-    text-align: justify;
-    margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--text-color);
-    font-size: 1.25rem;
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
 }
-.product-name{
-    text-align: justify;
-    margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
-    font-family: 'Pacifico', sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 1.25rem;
+.container-desc{
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
 }
-.sub {
-    text-align: justify;
-    margin-top: 20px;
-    font-family: 'Poppins', sans-serif;
-    color: var(--text-color);
-    font-size: 1.25rem;
-    margin-left: 25px;
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.container-desc:nth-child(1){
+    animation-delay: 0s;
+}
+.container-desc:nth-child(2){
+    animation-delay: 1s;
+}
+.container-desc:nth-child(3){
+    animation-delay: 2s;
+}
+.container-desc:nth-child(4){
+    animation-delay: 3s;
+}
+.container-desc:nth-child(5){
+    animation-delay: 4s;
+}
+.container-desc:nth-child(6){
+    animation-delay: 5s;
+}
+
+.text-desc{
+    padding: 20px 30px;
+    background: rgba(255,255,255, .1);
+    backdrop-filter: blur(10px);
+    color: white;
+    position: relative;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.left-container {
+    left: 0;
+}
+.right-container {
+    left: 50%;
+}
+.timeline::after {
+    content: '';
+    position: absolute;
+    width: 6px;
+    height: 100%;
+    background: linear-gradient(135deg,#00dbde 20%,#fc00ff 70%);
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 3s linear forwards;
+}
+@keyframes moveline {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline::after{
+        left: 31px;
+    }
+    .container-desc {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-desc {
+        font-size: 13px;
+    }
+    .right-container {
+        left: 0;
+    }
 }
