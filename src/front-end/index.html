@@ -25,6 +25,7 @@
     <script src="../front-end/js/toggle.js" defer></script>
     <script src="../front-end/js/reveal.js" defer></script>
     <script src="../front-end/js/result.js" defer></script>
+    <script src="../front-end/js/dataset.js" defer></script>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--preloader-->
@@ -118,6 +119,9 @@
     <section class="image" id="image">
         <div class="container">
             <h2 class="img">REVERSE IMAGE SEARCH</h2>
+            <!--upload data set-->
+            <input type="file" id="folderInput" webkitdirectory directory multiple style="display:none">
+            <button type="button" class="dataSet" id="uploadButton">Upload Data Set</button>
             <form action="/" method="POST"> 
                 <!--input gambar-->
                 <div class="input-img">
