@@ -10,14 +10,15 @@
 }
 
 :root {
-    --bg-color: #010718;
+    --bg-color: rgb(5, 11, 32);
     --main-color: #4070F4;  
     --text-color: #ffffff;
     --other-text-color: #000;
 }
 
 body{
-    background: var(--bg-color);
+    background: url(../images/stars-galaxy-3840x2560-10307.jpg);
+    background-attachment: fixed;
 }
 
 section {

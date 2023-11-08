@@ -1,14 +1,13 @@
-const text = document.querySelector(".title-text");
+var home = "MIRROR";
+    var speeds = 750;
 
-const textLoad = () => {
-    // fungsi judul ketikan
-    setTimeout(() => {
-        text.textContent = "Tugas Besar Algeo";
-    }, 0);
-    setTimeout(() => {
-        text.textContent = "Now You See Us";
-    }, 5000);
-}
+    var j = 0;
 
-textLoad();
-setInterval(textLoad, 10000);
+    function autoTypers() {
+        document.getElementById("hometext").innerHTML += home.charAt(j);
+        j++;
+
+        setTimeout(autoTypers, speeds);
+    }
+
+    autoTypers();

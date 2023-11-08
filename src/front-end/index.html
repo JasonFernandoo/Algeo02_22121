@@ -1,5 +1,3 @@
-{% extends 'base.html' %}
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -31,6 +29,7 @@
     <script src="../front-end/js/dataset.js" defer></script>
     <script src="../front-end/js/autotype.js" defer></script>
     <script src="../front-end/js/information.js" defer></script>
+    <script src="../front-end/js/background.js" defer></script>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--preloader-->
@@ -45,14 +44,7 @@
     <section class="home" id="home">
         <!--tulisan di home section-->
         <div class="home-text">
-            <span class="text title-text"></span>
-            <h3 class="firsth3">Jonathan Emmanuel Saragih / 13522121</h3>
-            <h3>Attara Majesta Ayub / 13522139</h3>
-            <h3>Jason Fernando / 13522156</h3>
-        </div>
-        <!--gambar di home section-->
-        <div class="home-photo">
-            <img src="../front-end/images/home_photo.png" alt="team-photo">
+            <div id="hometext" class="text title-text"></div>
         </div>
     </section>
 
@@ -101,17 +93,12 @@
 
     <!--description section-->
     <section class="description" id="description">
+        <h1 class="desc-h1">What Is This ?</h1>
         <div class="product">
-            <h1 class="desc-h1">What Is This ?</h1>
-            <P class="product-p">Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
-                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, 
-                and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</P>
+            <div id="text" class="product-p"></div>
         </div>
+        <h1 class="desc-h2">How To Use It ?</h1>
         <div class="how-to">
-            <h1 class="desc-h1">How To Use It ?</h1>
             <p class="how-to-p">1. Image Upload: You can easily upload your image in a few clicks. We support a wide range of image formats (JPG, JPEG, etc.)<br>
                                 2. Search by Color or Texture: <span class="product-name">Now You See Us</span> offers you the flexibility to choose between two powerful search options :<br>
                                 <span class="sub">-Search by Color: Discover images that share similar color palettes with your uploaded image.</span><br> 

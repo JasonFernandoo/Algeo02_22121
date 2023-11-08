@@ -16,14 +16,25 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
-    width: 45%;
+    width: 100%;
+    text-align: center;
+}
+.desc-h2 {
+    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
+    font-family: 'Pacifico', sans-serif;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
 }
 .how-to {
     height: 20%;
     margin-top: 30px;
 }
 .product-p {
-    text-align: justify;
+    text-align: center;
     margin-top: 10px;
     font-family: 'Poppins', sans-serif;
     color: var(--text-color);
