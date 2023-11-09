@@ -30,7 +30,7 @@ def index():
         
     else:
         tasks = Todo.query.order_by(Todo.date_created).all()
-        return render_template('../src/front-end/index.html', tasks=tasks)
+        return render_template('index.html', tasks=tasks)
     
 
 if __name__ == "__main__": 
