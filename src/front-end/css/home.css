@@ -3,7 +3,8 @@
     min-height: 100vh;
     width: auto;
     background: url(../images/home_photo.jpg);
-    background-size: 160%;
+    background-size: 110%;
+    background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
     display: flex;
@@ -18,7 +19,17 @@
     position: relative;
     font-family: 'MyWebFont', sans-serif;
     color: #ffffff;
-    font-size: 4.5rem;
-    font-weight: 600;
+    font-size: 6rem;
+    font-weight: 200;
     text-align: center;
+    margin-right: 5px;
+}
+.home-p {
+    position: relative;
+    font-family: 'Alatsi', sans-serif;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 10px;
 }

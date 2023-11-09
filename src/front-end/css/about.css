@@ -17,13 +17,12 @@
     justify-content: center;
 }
 .about-h1{
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
-    font-family: 'Pacifico', sans-serif;
-    word-spacing: 15px;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    word-spacing: 15px; 
     font-size: 3.5rem;
     width: auto;
+    letter-spacing: 5px;
 }
 .wrapper {
     width: 100%;
@@ -62,17 +61,18 @@
     top: 100%;
     right: 0;
     position: absolute;
-    background: linear-gradient(90deg,#00dade33 20%, rgba(251, 0, 255, 0.212) 70%);  
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4) 0%, rgba(123,123,123,0.7) 25%, rgba(255,255,255,0.5) 50%, rgba(123,123,123,0.7) 75%, rgba(255, 255, 255, 0.4) 100%);  
     backdrop-filter: blur(5px);
     border-radius: 15px;
     padding: 30px;
-    color: #fff;
+    color: #000000;
     transition: 2s;
   }
   .card-div:hover .card-body{
     top: 0;
   }
   .card-body .card-title{
+    font-family: 'MyWebFont', sans-serif;
     text-transform: capitalize;
     color: var(--main-color);
     font-size: 3rem;
@@ -80,11 +80,13 @@
   }
   .card-body .card-sub{
     text-transform: capitalize;
+    color: #ffffff;
     font-size: 2rem;
     font-weight: 300;
   }
   .card-body .card-info{
     text-align: justify;
+    color: #000000;
     font-size: 1.05rem;
     line-height: 25px;
     margin: 40px 0;

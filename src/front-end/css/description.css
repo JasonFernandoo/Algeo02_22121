@@ -19,6 +19,9 @@
     width: 100%;
     text-align: center;
 }
+.how-to {
+    margin-top: 4%;
+}
 .desc-h2 {
     color: white;
     font-family: 'Alatsi', sans-serif;
@@ -32,6 +35,7 @@
     font-family: 'MyWebFont', sans-serif;
     font-size: 3rem;
     width: 100%;
+    font-weight: 200;
     text-align: center;
     margin-top: 1%;
 }
@@ -95,6 +99,9 @@
 .left-container {
     left: 0;
 }
+.left-text {
+    text-align: right;
+}
 .right-container {
     left: 50%;
 }
@@ -130,6 +137,9 @@
     }
     .text-desc {
         font-size: 13px;
+    }
+    .left-text {
+        text-align: left;
     }
     .right-container {
         left: 0;
