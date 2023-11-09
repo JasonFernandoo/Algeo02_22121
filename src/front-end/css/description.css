@@ -9,21 +9,27 @@
 }
 .product {
     height: 20%;
+    width: 80%;
+    margin: auto;
 }
 .desc-h1 {
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
-    font-family: 'Pacifico', sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-family: 'Alatsi', sans-serif;
+    color: white;
     font-size: 3rem;
     width: 100%;
     text-align: center;
 }
 .desc-h2 {
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
-    font-family: 'Pacifico', sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+.title-desc {
+    color: white;
+    font-family: 'MyWebFont', sans-serif;
     font-size: 3rem;
     width: 100%;
     text-align: center;
@@ -95,9 +101,9 @@
 .timeline::after {
     content: '';
     position: absolute;
-    width: 6px;
+    width: 3px;
     height: 100%;
-    background: linear-gradient(135deg,#00dbde 20%,#fc00ff 70%);
+    background: white;
     top: 0;
     left: 50%;
     margin-left: -3px;

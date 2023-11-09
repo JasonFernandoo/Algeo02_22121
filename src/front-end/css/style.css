@@ -10,14 +10,14 @@
 }
 
 :root {
-    --bg-color: rgb(5, 11, 32);
+    --bg-color: rgb(0, 0, 0);
     --main-color: #4070F4;  
     --text-color: #ffffff;
     --other-text-color: #000;
 }
 
 body{
-    background: url(../images/stars-galaxy-3840x2560-10307.jpg);
+    background: url(../images/body_photo.jpg);
     background-attachment: fixed;
 }
 
@@ -37,3 +37,8 @@ section {
     position: fixed;
     z-index: 100;
 }
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../font/Maharlika-Regular.ttf') format('truetype');
+  }

@@ -2,7 +2,7 @@
     position: relative;
     min-height: 100vh;
     width: auto;
-    background: url(../images/planet-earth-orbit-outer-space-cosmos-4096x3112-8769.jpg);
+    background: url(../images/home_photo.jpg);
     background-size: 160%;
     background-position: center;
     background-attachment: fixed;
@@ -16,8 +16,8 @@
 }
 .home-text .text{
     position: relative;
-    font-family:'Kdam Thmor Pro', sans-serif ;
-    color: #ffffffb3;
+    font-family: 'MyWebFont', sans-serif;
+    color: #ffffff;
     font-size: 4.5rem;
     font-weight: 600;
     text-align: center;

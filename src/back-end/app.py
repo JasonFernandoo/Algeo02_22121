@@ -26,7 +26,7 @@ def index():
             db.session.commit()
             return redirect('/')
         except :
-            return 'You have faced an issue nyet'
+            return 'You have faced an issue on your input'
         
     else:
         tasks = Todo.query.order_by(Todo.date_created).all()
