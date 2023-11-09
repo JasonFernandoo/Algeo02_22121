@@ -26,13 +26,28 @@ form {
 .dataSet {
     margin-top: 2%;
     width: 260px;
-    height: 30px;
+    height: 40px;
     border-radius: 20px;
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
+    border: 3px solid #223466;
+    background: #223466;
     cursor: pointer;
     font-size: 25px;
     color: white;
     text-align: center;
+    transition: all ease .50s;
+}
+.dataSet:hover {
+    margin-top: 2%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
 }
 
 /* css input image */
@@ -145,7 +160,21 @@ figcaption {
     width: 260px;
     height: 40px;
     border-radius: 20px;
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
+    border: 3px solid #223466;
+    background: #223466;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
+}
+.search:hover {
+    margin-top: 6%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
     cursor: pointer;
     font-size: 30px;
     color: white;
