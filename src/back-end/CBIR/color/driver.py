@@ -1,84 +1,72 @@
 from PIL import Image
-import numpy as np
-import cv2 as cv2
 import math as math
+import cv2
+import numpy as np
+import os
+import time
+start_time = time.time()
+class ImageComparator:
+    def __init__(self, image1_path):
+        self.image1 = cv2.imread(image1_path)
 
-class Search:
-    
-    def __init__(self, image, name):
-        self.image = image
+    def calculate_histograms(self, image):
+        image_hist = cv2.calcHist([image], [0, 1, 2], None, [8, 12, 3], [0, 180, 0, 256, 0, 256])
+        return image_hist
 
-    def query_search(self):
-        # Read image
-        query = cv2.imdecode(np.fromstring(self.image, np.uint8), cv2.IMREAD_UNCHANGED)
-        print(query)
+    def calculate_cosine_similarity(self, hist1, hist2):
+        dot_product = np.dot(hist1.flatten(), hist2.flatten())
+        magnitude1 = np.linalg.norm(hist1)
+        magnitude2 = np.linalg.norm(hist2)
+        similarity = dot_product / (magnitude1 * magnitude2)
+        return similarity
 
-        # Initialize ColorDescriptor and bins
-        descriptor = ColorDescriptor((8, 12, 3))
+    def compare_images_in_folder(self, folder_path, save_path=None):
+        similar_images = []
+        similar_percent = []
+        most_similar_image = []
+        highest_similarity = -1  # Initialize with a low value
 
-        # Describe feature of query image
-        feature = descriptor.describe(query)
+        for filename in os.listdir(folder_path):
+            if filename.endswith(('.jpg', '.jpeg', '.png')):
+                image2_path = os.path.join(folder_path, filename)
+                image2 = cv2.imread(image2_path)
+                hist1 = self.calculate_histograms(self.image1)
+                hist2 = self.calculate_histograms(image2)
+                similarity = self.calculate_cosine_similarity(hist1, hist2)
+                print(similarity)
 
-        #print(feature)
-        print(feature)
+                i = 0
+                if save_path and similar_images:
+                    with open(save_path, 'w') as file:
+                        for path in similar_images:
+                            file.write(path + '\n' + "cosine similarity: " + str(round(similar_percent[i] * 100, 2)) + '%' + '\n')
+                            i += 1
 
-class ColorDescriptor:
-    def __init__(self, bins):
-        self.bins = bins
-    
-    def describe(self, image): #Mengubah image menjadi hsv
-        self.image = image
-        image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
+                if similarity > 0.6:
+                    similar_images.append(image2_path)
+                    similar_percent.append(similarity)
 
-        features = []
+                if similarity > highest_similarity:
+                    highest_similarity = similarity
+                    most_similar_images = [image2_path]
+                elif similarity == highest_similarity:
+                    most_similar_images.append(image2_path)
 
-        (h, w) = image.shape[:2]
-        (cX, cY) = (int(w*0.5) , int(h*0.5))
+        return most_similar_images, highest_similarity
 
-        regions = [
-        (0, 0, cX, cY),           # Top-left
-        (cX, 0, w, cY),           # Top-center
-        (w, 0, w, cY),            # Top-right
-        (0, cY, cX, h),           # Middle-left
-        (cX, cY, w, h),           # Middle-center
-        (w, cY, w, h),            # Middle-right
-        (0, h, cX, h),            # Bottom-left
-        (cX, h, w, h),            # Bottom-center
-        (w, h, w, h)              # Bottom-right
-        ]
+if __name__ == "__main__":
+    image1_path = 'C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/search/105.jpg'  # Gantilah dengan jalur lengkap menuju gambar Anda
+    image_folder = 'C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset'  # Gantilah dengan jalur lengkap ke folder yang berisi gambar-gambar
+    save_path = 'C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/CBIR/color/similar_color.txt'  # Gantilah dengan jalur lengkap file penyimpanan hasil
 
-        for (startX, startY, endX, endY) in regions:
-            maskArea = np.zeros(image.shape[:2], dtype="uint8")
-            cv2.rectangle(maskArea, (startX, startY), (endX, endY), 255, -1)
+    comparator = ImageComparator(image1_path)
+    similar_images, highest_similarity = comparator.compare_images_in_folder(image_folder, save_path)
 
-            hist = self.histogram(image, maskArea)
-            features.extend(hist)
-        
-    def histogram(self, image, mask):
-        hist = cv2.calcHist([image], [0, 1, 2], mask, self.bins, [0, 180, 0, 256, 0, 256])
-        dst = np.zeros(hist.shape, dtype="float")
-
-        hist = cv2.normalize(hist, dst)
-        hist = hist.flatten()
-
-        return hist
-
-V = Image.open(r'src\back-end\image\search\105.jpg')
-# W = Image.open(r'src\back-end\image\dataset\104.jpg')
-# X = Image.open(r'src\back-end\image\dataset\105.jpg')
-# Y = Image.open(r'src\back-end\image\dataset\106.jpg')
-
-if V.mode != "RGB":
-    V = V.convert("RGB") 
-
-width, height = V.size
-matrix = [[0 for x in range(width)] for y in range(height)]
-
-V = list(V.getdata())
-V = np.array(V)
-
-
-for i in range(width):
-    for j in range(height):
-        matrix[i][j] = V[(width*(i))+j]
-
+    if similar_images:
+        print("Most similar images:", similar_images)
+        print("Cosine Similarity:", highest_similarity * 100, "%")
+    else:
+        print("No similar images found with similarity above 0.6.")
+end_time = time.time()
+execution_time = end_time - start_time
+print("Waktu eksekusi:", execution_time, "detik")
