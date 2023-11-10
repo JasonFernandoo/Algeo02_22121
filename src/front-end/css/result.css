@@ -1,7 +1,6 @@
 .result-tab {
     background: rgba(255,255,255, .1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
-    border-radius: 20px;
     backdrop-filter: blur(10px);
     width: 100%;
     height: 0;

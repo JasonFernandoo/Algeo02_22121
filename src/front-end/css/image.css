@@ -81,6 +81,26 @@ form {
 .view-img p{
     font-size: 1.5rem;
 }
+.canvasContainer {
+    border-radius: 20px;
+    margin-top: -300px;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.captureCanvas {
+    border-radius: 20px;
+    border: none;
+    height: 101%;
+    width: 100%;
+}
+.captureImage {
+    display: none;
+    border-radius: 20px;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
 .img {
     background: linear-gradient(45deg, rgba(255,255,255,1) 30%, rgba(123,123,123,1) 40%, rgba(255,255,255,1) 50%, rgba(123,123,123,1) 60%, rgba(255,255,255,1) 70%);
     -webkit-background-clip: text;
@@ -103,8 +123,33 @@ figcaption {
     font-size: 25px;
     color: white;
 }
+.cameraButton {
+    margin-top: 10%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
+}
+.cameraButton:hover {
+    margin-top: 10%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
+    cursor: pointer;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
 #toggle {
-    margin-top: 25vh;
+    margin-top: 14.5vh;
     position: relative;
     display: block;
     width: 90px;
@@ -156,7 +201,7 @@ figcaption {
     -webkit-text-fill-color: transparent;
 }
 .search {
-    margin-top: 6%;
+    margin-top: 3%;
     width: 260px;
     height: 40px;
     border-radius: 20px;
@@ -169,7 +214,7 @@ figcaption {
     transition: all ease .50s;
 }
 .search:hover {
-    margin-top: 6%;
+    margin-top: 3%;
     width: 260px;
     height: 40px;
     border-radius: 20px;

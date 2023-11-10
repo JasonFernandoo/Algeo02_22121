@@ -17,25 +17,19 @@ MIRROR is a user-friendly website that allows you to upload an image and find vi
 - Jason Fernando            / 13522156
 
 ## Stucture :
-|--bin
-|--doc
-|--src
-|   |--back-end
-|   |      |--_pyache_
-|   |      |--CBIR
-|   |      |--image
-|   |      |--instance
-|   |      |--static
-|   |      |--templates
-|   |      |--venv
-|   |      |app.py
-|   |
-|   |--front-end
-|   |      |--css
-|   |      |--font
-|   |      |--images
-|   |      |--js
-|   |      |index.html
-|
-|--test
-|README.md
+src
+|--back-end
+    |--_pyache_
+    |--CBIR
+    |--image
+    |--instance
+    |--static
+    |--templates
+        |--venv
+        |app.py
+|--front-end    
+    |--css
+    |--font
+    |--images
+    |--js
+    |index.html

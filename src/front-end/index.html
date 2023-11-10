@@ -20,6 +20,7 @@
     <link rel="stylesheet" type="text/css" href="../front-end/css/about.css">
     <link rel="stylesheet" type="text/css" href="../front-end/css/description.css">
     <link rel="stylesheet" type="text/css" href="../front-end/css/result.css">
+    <link rel="stylesheet" type="text/css" href="../front-end/css/camera.css">
     <!--js files-->
     <script src="../front-end/js/home.js" defer></script>
     <script src="../front-end/js/image.js" defer></script>
@@ -29,6 +30,7 @@
     <script src="../front-end/js/dataset.js" defer></script>
     <script src="../front-end/js/autotype.js" defer></script>
     <script src="../front-end/js/background.js" defer></script>
+    <script src="../front-end/js/camera.js" defer></script>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--preloader-->
@@ -122,7 +124,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>    
 
     <!--image-search section-->
     <section class="image" id="image">
@@ -137,8 +139,12 @@
                     <label for="input-file" id="drop-area">
                         <input type="file" accept="image/*" id="input-file" hidden>
                         <div class="view-img" id="view-img">
-                            <img src="../front-end/images/upload.png">
+                            <img class="img-view" src="../front-end/images/upload.png">
                             <p class="img">Drag and drop or click <br> to upload image</p>
+                        </div>
+                        <div class="canvasContainer">
+                            <canvas class="captureCanvas" id="capturedCanvas"></canvas>
+                            <img class="captureImage" id="capturedImage">
                         </div>
                     </label>
                 </div>
@@ -146,6 +152,7 @@
                 <div class="search-img">
                     <h2 class="img">File Name :</h2>
                     <figcaption id="file-name">No file chosen</figcaption>
+                    <button type="button" id="captureButton" class="cameraButton">Camera</button>
                     <div id="toggle" class="color">
                         <i class="indicator"></i>
                         <div class="toggle-text">
@@ -159,6 +166,12 @@
         </div>
     </section>
 
+    <!--camera section-->
+    <div class="cameraContainer" id="cameraContainer">
+        <video class="cameraFeed" id="cameraFeed" width="640" height="480" autoplay></video>
+        <div class="countdownOverlay" id="countdownOverlay"></div>
+        <div class="logo-camera"></div>
+    </div>
     <!--result section-->
     <div class="result-tab" id="result-tab">
         <div class="logo"></div>

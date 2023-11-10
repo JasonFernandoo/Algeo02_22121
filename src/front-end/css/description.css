@@ -51,13 +51,14 @@
     max-width: 1200px;
     margin: auto;
 }
-.container-desc{
+.animate-container-desc {
     padding: 10px 50px;
     position: relative;
     width: 50%;
     animation: movedown 1s linear forwards;
     opacity: 0;
 }
+
 @keyframes movedown {
     0%{
         opacity: 1;
@@ -105,7 +106,7 @@
 .right-container {
     left: 50%;
 }
-.timeline::after {
+.timeline::after{
     content: '';
     position: absolute;
     width: 3px;
@@ -115,7 +116,7 @@
     left: 50%;
     margin-left: -3px;
     z-index: -1;
-    animation: moveline 3s linear forwards;
+    animation: moveline 5s linear forwards;
 }
 @keyframes moveline {
     0% {
