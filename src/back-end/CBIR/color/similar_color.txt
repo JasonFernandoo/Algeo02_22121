@@ -1,912 +1,766 @@
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1009.jpg
-cosine similarity: 60.17%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\101.jpg
-cosine similarity: 66.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1016.jpg
-cosine similarity: 81.37%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1044.jpg
-cosine similarity: 60.86%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\105.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\105.jpg
 cosine similarity: 100.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1052.jpg
-cosine similarity: 66.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1055.jpg
-cosine similarity: 63.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1057.jpg
-cosine similarity: 90.2%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1061.jpg
-cosine similarity: 85.04%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1072.jpg
-cosine similarity: 75.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1087.jpg
-cosine similarity: 63.84%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1096.jpg
-cosine similarity: 63.3%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1099.jpg
-cosine similarity: 69.56%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1104.jpg
-cosine similarity: 60.61%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1109.jpg
-cosine similarity: 78.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1110.jpg
-cosine similarity: 68.09%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1117.jpg
-cosine similarity: 70.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1142.jpg
-cosine similarity: 61.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1155.jpg
-cosine similarity: 73.04%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1160.jpg
-cosine similarity: 62.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1166.jpg
-cosine similarity: 82.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1172.jpg
-cosine similarity: 60.41%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1187.jpg
-cosine similarity: 62.91%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1194.jpg
-cosine similarity: 65.13%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1206.jpg
-cosine similarity: 77.79%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1219.jpg
-cosine similarity: 62.91%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1231.jpg
-cosine similarity: 61.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1236.jpg
-cosine similarity: 83.88%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1251.jpg
-cosine similarity: 69.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1261.jpg
-cosine similarity: 73.97%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1263.jpg
-cosine similarity: 77.05%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1275.jpg
-cosine similarity: 71.63%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\13.jpg
-cosine similarity: 67.82%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1310.jpg
-cosine similarity: 75.7%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1315.jpg
-cosine similarity: 62.57%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1318.jpg
-cosine similarity: 66.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1325.jpg
-cosine similarity: 72.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1333.jpg
-cosine similarity: 73.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\134.jpg
-cosine similarity: 60.16%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1351.jpg
-cosine similarity: 62.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1389.jpg
-cosine similarity: 65.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1405.jpg
-cosine similarity: 61.59%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1406.jpg
-cosine similarity: 78.54%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\142.jpg
-cosine similarity: 74.21%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1422.jpg
-cosine similarity: 62.08%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1432.jpg
-cosine similarity: 71.81%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1435.jpg
-cosine similarity: 66.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1438.jpg
-cosine similarity: 69.09%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1440.jpg
-cosine similarity: 66.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1459.jpg
-cosine similarity: 64.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1461.jpg
-cosine similarity: 63.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1465.jpg
-cosine similarity: 60.37%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1468.jpg
-cosine similarity: 60.91%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\149.jpg
-cosine similarity: 68.37%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1511.jpg
-cosine similarity: 70.13%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1513.jpg
-cosine similarity: 77.22%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1530.jpg
-cosine similarity: 66.49%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1531.jpg
-cosine similarity: 75.61%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\154.jpg
-cosine similarity: 74.85%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1550.jpg
-cosine similarity: 71.54%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\156.jpg
-cosine similarity: 71.94%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1561.jpg
-cosine similarity: 73.02%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1563.jpg
-cosine similarity: 62.26%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1568.jpg
-cosine similarity: 60.79%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1572.jpg
-cosine similarity: 77.61%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\16.jpg
-cosine similarity: 61.16%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\160.jpg
-cosine similarity: 86.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1613.jpg
-cosine similarity: 62.02%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\162.jpg
-cosine similarity: 64.1%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1626.jpg
-cosine similarity: 61.08%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1638.jpg
-cosine similarity: 63.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1657.jpg
-cosine similarity: 81.68%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1676.jpg
-cosine similarity: 61.14%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1680.jpg
-cosine similarity: 70.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\169.jpg
-cosine similarity: 61.16%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1691.jpg
-cosine similarity: 65.9%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1697.jpg
-cosine similarity: 66.2%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\170.jpg
-cosine similarity: 69.83%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1703.jpg
-cosine similarity: 61.89%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1704.jpg
-cosine similarity: 72.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1739.jpg
-cosine similarity: 71.24%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1751.jpg
-cosine similarity: 80.77%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1752.jpg
-cosine similarity: 67.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1753.jpg
-cosine similarity: 64.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1785.jpg
-cosine similarity: 65.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1791.jpg
-cosine similarity: 83.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1797.jpg
-cosine similarity: 77.56%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1798.jpg
-cosine similarity: 76.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1799.jpg
-cosine similarity: 81.24%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1812.jpg
-cosine similarity: 66.88%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1815.jpg
-cosine similarity: 73.85%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1816.jpg
-cosine similarity: 66.82%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1817.jpg
-cosine similarity: 62.71%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1819.jpg
-cosine similarity: 64.35%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1821.jpg
-cosine similarity: 61.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1831.jpg
-cosine similarity: 60.57%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1839.jpg
-cosine similarity: 67.78%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1842.jpg
-cosine similarity: 63.24%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1848.jpg
-cosine similarity: 69.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1855.jpg
-cosine similarity: 62.79%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1884.jpg
-cosine similarity: 68.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1891.jpg
-cosine similarity: 72.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1908.jpg
-cosine similarity: 76.7%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\191.jpg
-cosine similarity: 60.08%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1919.jpg
-cosine similarity: 69.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1933.jpg
-cosine similarity: 73.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1935.jpg
-cosine similarity: 62.88%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1951.jpg
-cosine similarity: 65.61%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\196.jpg
-cosine similarity: 60.57%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1970.jpg
-cosine similarity: 77.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1979.jpg
-cosine similarity: 63.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1984.jpg
-cosine similarity: 67.64%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\1986.jpg
-cosine similarity: 63.97%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2004.jpg
-cosine similarity: 69.6%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2013.jpg
-cosine similarity: 63.05%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2018.jpg
-cosine similarity: 60.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2021.jpg
-cosine similarity: 67.43%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2064.jpg
-cosine similarity: 65.77%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2071.jpg
-cosine similarity: 62.41%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2088.jpg
-cosine similarity: 67.63%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2110.jpg
-cosine similarity: 80.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2122.jpg
-cosine similarity: 61.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2128.jpg
-cosine similarity: 67.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2133.jpg
-cosine similarity: 76.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2148.jpg
-cosine similarity: 79.78%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2150.jpg
-cosine similarity: 62.96%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\218.jpg
-cosine similarity: 66.24%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2196.jpg
-cosine similarity: 71.52%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2208.jpg
-cosine similarity: 76.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2255.jpg
-cosine similarity: 86.36%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2257.jpg
-cosine similarity: 73.11%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2261.jpg
-cosine similarity: 61.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2271.jpg
-cosine similarity: 63.95%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\228.jpg
-cosine similarity: 63.43%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2283.jpg
-cosine similarity: 60.19%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2288.jpg
-cosine similarity: 75.31%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2290.jpg
-cosine similarity: 71.57%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2294.jpg
-cosine similarity: 63.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2332.jpg
-cosine similarity: 64.46%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2335.jpg
-cosine similarity: 60.86%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2339.jpg
-cosine similarity: 61.13%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2345.jpg
-cosine similarity: 71.78%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2346.jpg
-cosine similarity: 71.35%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2357.jpg
-cosine similarity: 75.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2358.jpg
-cosine similarity: 80.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\236.jpg
-cosine similarity: 63.82%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2364.jpg
-cosine similarity: 64.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2366.jpg
-cosine similarity: 60.17%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2385.jpg
-cosine similarity: 77.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2386.jpg
-cosine similarity: 86.14%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\241.jpg
-cosine similarity: 60.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2420.jpg
-cosine similarity: 63.46%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\243.jpg
-cosine similarity: 62.46%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2435.jpg
-cosine similarity: 64.27%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2439.jpg
-cosine similarity: 60.51%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2442.jpg
-cosine similarity: 73.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2454.jpg
-cosine similarity: 60.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2461.jpg
-cosine similarity: 61.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2466.jpg
-cosine similarity: 82.82%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2469.jpg
-cosine similarity: 75.12%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2491.jpg
-cosine similarity: 60.72%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2505.jpg
-cosine similarity: 63.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2530.jpg
-cosine similarity: 71.39%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\254.jpg
-cosine similarity: 60.23%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2543.jpg
-cosine similarity: 68.54%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2544.jpg
-cosine similarity: 79.76%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2551.jpg
-cosine similarity: 79.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2561.jpg
-cosine similarity: 66.28%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2582.jpg
-cosine similarity: 77.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2591.jpg
-cosine similarity: 84.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2598.jpg
-cosine similarity: 66.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\260.jpg
-cosine similarity: 65.98%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2622.jpg
-cosine similarity: 65.31%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2636.jpg
-cosine similarity: 78.77%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2637.jpg
-cosine similarity: 71.69%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2660.jpg
-cosine similarity: 67.33%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2661.jpg
-cosine similarity: 78.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2678.jpg
-cosine similarity: 63.97%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2682.jpg
-cosine similarity: 60.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2689.jpg
-cosine similarity: 71.62%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2691.jpg
-cosine similarity: 61.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2696.jpg
-cosine similarity: 77.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2697.jpg
-cosine similarity: 62.6%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2706.jpg
-cosine similarity: 67.62%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2709.jpg
-cosine similarity: 63.03%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2727.jpg
-cosine similarity: 66.17%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2728.jpg
-cosine similarity: 60.52%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2740.jpg
-cosine similarity: 74.23%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2746.jpg
-cosine similarity: 74.99%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2750.jpg
-cosine similarity: 65.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2759.jpg
-cosine similarity: 60.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2791.jpg
-cosine similarity: 75.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2797.jpg
-cosine similarity: 63.42%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2809.jpg
-cosine similarity: 62.68%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2812.jpg
-cosine similarity: 60.41%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2818.jpg
-cosine similarity: 68.33%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\282.jpg
-cosine similarity: 73.33%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2822.jpg
-cosine similarity: 60.45%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2827.jpg
-cosine similarity: 80.52%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2857.jpg
-cosine similarity: 84.41%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2861.jpg
-cosine similarity: 61.51%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2873.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3970.jpg
+cosine similarity: 90.58%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4214.jpg
+cosine similarity: 88.78%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1206.jpg
+cosine similarity: 88.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3240.jpg
+cosine similarity: 87.61%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\375.jpg
+cosine similarity: 86.38%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1757.jpg
+cosine similarity: 86.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4446.jpg
+cosine similarity: 86.23%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3085.jpg
+cosine similarity: 85.93%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4464.jpg
+cosine similarity: 85.81%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3506.jpg
+cosine similarity: 84.76%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1057.jpg
+cosine similarity: 84.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3327.jpg
+cosine similarity: 84.09%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4137.jpg
+cosine similarity: 83.93%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\731.jpg
+cosine similarity: 82.97%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3173.jpg
+cosine similarity: 82.92%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3617.jpg
+cosine similarity: 82.8%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4669.jpg
+cosine similarity: 82.76%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2339.jpg
+cosine similarity: 82.66%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\791.jpg
+cosine similarity: 82.62%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2133.jpg
+cosine similarity: 82.39%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3426.jpg
+cosine similarity: 82.33%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2689.jpg
 cosine similarity: 82.28%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2893.jpg
-cosine similarity: 80.92%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2894.jpg
-cosine similarity: 61.98%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2899.jpg
-cosine similarity: 73.69%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2933.jpg
-cosine similarity: 60.11%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2939.jpg
-cosine similarity: 62.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2945.jpg
-cosine similarity: 74.95%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2954.jpg
-cosine similarity: 74.11%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2962.jpg
-cosine similarity: 67.04%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2964.jpg
-cosine similarity: 62.26%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\2965.jpg
-cosine similarity: 68.69%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\299.jpg
-cosine similarity: 79.43%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\300.jpg
-cosine similarity: 64.76%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3014.jpg
-cosine similarity: 64.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3044.jpg
-cosine similarity: 62.54%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3055.jpg
-cosine similarity: 60.12%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3060.jpg
-cosine similarity: 84.11%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3066.jpg
-cosine similarity: 60.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3079.jpg
-cosine similarity: 60.79%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3082.jpg
-cosine similarity: 65.59%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3085.jpg
-cosine similarity: 78.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\310.jpg
-cosine similarity: 65.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3105.jpg
-cosine similarity: 61.91%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3106.jpg
-cosine similarity: 79.62%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3108.jpg
-cosine similarity: 81.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3120.jpg
-cosine similarity: 70.49%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\313.jpg
-cosine similarity: 63.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3145.jpg
-cosine similarity: 66.92%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3151.jpg
-cosine similarity: 61.39%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3173.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4294.jpg
+cosine similarity: 82.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\271.jpg
+cosine similarity: 82.14%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\76.jpg
+cosine similarity: 82.1%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1261.jpg
+cosine similarity: 82.06%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\940.jpg
+cosine similarity: 81.89%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2442.jpg
+cosine similarity: 81.77%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\673.jpg
+cosine similarity: 81.62%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1986.jpg
+cosine similarity: 81.29%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2622.jpg
+cosine similarity: 80.83%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\764.jpg
+cosine similarity: 80.53%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2290.jpg
+cosine similarity: 80.42%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2544.jpg
+cosine similarity: 80.42%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\299.jpg
+cosine similarity: 80.36%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2761.jpg
+cosine similarity: 80.12%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2386.jpg
+cosine similarity: 80.12%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2660.jpg
+cosine similarity: 80.03%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1739.jpg
+cosine similarity: 79.82%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2130.jpg
+cosine similarity: 79.45%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1278.jpg
+cosine similarity: 79.38%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3060.jpg
+cosine similarity: 78.92%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3722.jpg
+cosine similarity: 78.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1155.jpg
+cosine similarity: 78.88%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2835.jpg
+cosine similarity: 78.77%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3389.jpg
+cosine similarity: 78.68%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\744.jpg
+cosine similarity: 78.54%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\904.jpg
+cosine similarity: 78.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1797.jpg
+cosine similarity: 78.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1110.jpg
+cosine similarity: 78.12%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1325.jpg
+cosine similarity: 78.06%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3519.jpg
+cosine similarity: 78.05%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3762.jpg
 cosine similarity: 78.04%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3182.jpg
-cosine similarity: 62.78%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3194.jpg
-cosine similarity: 66.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\32.jpg
-cosine similarity: 62.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3202.jpg
-cosine similarity: 88.51%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3213.jpg
-cosine similarity: 68.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3215.jpg
-cosine similarity: 62.25%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\322.jpg
-cosine similarity: 82.08%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3220.jpg
-cosine similarity: 72.44%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3236.jpg
-cosine similarity: 70.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3241.jpg
-cosine similarity: 66.9%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3242.jpg
-cosine similarity: 65.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3247.jpg
-cosine similarity: 60.43%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3251.jpg
-cosine similarity: 62.76%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3253.jpg
-cosine similarity: 82.13%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3270.jpg
-cosine similarity: 61.81%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3282.jpg
-cosine similarity: 63.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3283.jpg
-cosine similarity: 66.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3287.jpg
-cosine similarity: 66.35%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3290.jpg
-cosine similarity: 63.81%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3291.jpg
-cosine similarity: 73.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3297.jpg
-cosine similarity: 81.6%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3298.jpg
-cosine similarity: 67.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3300.jpg
-cosine similarity: 60.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3308.jpg
-cosine similarity: 70.23%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\332.jpg
-cosine similarity: 70.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\333.jpg
-cosine similarity: 72.99%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3336.jpg
-cosine similarity: 67.93%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3362.jpg
-cosine similarity: 68.69%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3366.jpg
-cosine similarity: 63.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3374.jpg
-cosine similarity: 67.27%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3376.jpg
-cosine similarity: 75.28%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3380.jpg
-cosine similarity: 65.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3389.jpg
-cosine similarity: 75.82%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3390.jpg
-cosine similarity: 65.31%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\341.jpg
-cosine similarity: 69.23%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3410.jpg
-cosine similarity: 74.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3415.jpg
-cosine similarity: 64.93%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3422.jpg
-cosine similarity: 62.85%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3429.jpg
-cosine similarity: 67.99%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3436.jpg
-cosine similarity: 69.07%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3439.jpg
-cosine similarity: 77.46%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\347.jpg
-cosine similarity: 61.85%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3492.jpg
-cosine similarity: 69.61%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3497.jpg
-cosine similarity: 87.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3501.jpg
-cosine similarity: 62.33%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3506.jpg
-cosine similarity: 83.14%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3512.jpg
-cosine similarity: 71.86%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3515.jpg
-cosine similarity: 76.33%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3517.jpg
-cosine similarity: 62.39%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3519.jpg
-cosine similarity: 70.9%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3530.jpg
-cosine similarity: 61.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3533.jpg
-cosine similarity: 70.45%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3535.jpg
-cosine similarity: 67.27%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3543.jpg
-cosine similarity: 75.79%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3553.jpg
-cosine similarity: 64.69%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3555.jpg
-cosine similarity: 70.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3563.jpg
-cosine similarity: 67.1%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3568.jpg
-cosine similarity: 78.08%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3586.jpg
-cosine similarity: 67.99%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3603.jpg
-cosine similarity: 61.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3606.jpg
-cosine similarity: 66.11%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3618.jpg
-cosine similarity: 68.1%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3619.jpg
-cosine similarity: 60.96%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3620.jpg
-cosine similarity: 76.62%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3621.jpg
-cosine similarity: 64.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3625.jpg
-cosine similarity: 61.74%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3630.jpg
-cosine similarity: 78.72%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3631.jpg
-cosine similarity: 61.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3642.jpg
-cosine similarity: 62.26%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3693.jpg
-cosine similarity: 74.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3698.jpg
-cosine similarity: 72.05%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3703.jpg
-cosine similarity: 65.56%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3716.jpg
-cosine similarity: 63.72%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3721.jpg
-cosine similarity: 72.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3733.jpg
-cosine similarity: 65.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3748.jpg
-cosine similarity: 71.28%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3749.jpg
-cosine similarity: 72.97%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\375.jpg
-cosine similarity: 75.3%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3754.jpg
-cosine similarity: 70.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3770.jpg
-cosine similarity: 70.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3789.jpg
-cosine similarity: 83.07%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3796.jpg
-cosine similarity: 76.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3805.jpg
-cosine similarity: 61.36%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3807.jpg
-cosine similarity: 83.86%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3830.jpg
-cosine similarity: 68.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3855.jpg
-cosine similarity: 61.76%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3856.jpg
-cosine similarity: 61.16%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3879.jpg
-cosine similarity: 69.67%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\391.jpg
-cosine similarity: 63.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3925.jpg
-cosine similarity: 64.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\393.jpg
-cosine similarity: 66.92%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3933.jpg
-cosine similarity: 67.24%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3953.jpg
-cosine similarity: 61.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3958.jpg
-cosine similarity: 64.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3963.jpg
-cosine similarity: 64.59%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3970.jpg
-cosine similarity: 95.19%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3981.jpg
-cosine similarity: 65.98%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\3986.jpg
-cosine similarity: 63.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4016.jpg
-cosine similarity: 67.21%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4026.jpg
-cosine similarity: 70.62%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4054.jpg
-cosine similarity: 61.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4079.jpg
-cosine similarity: 60.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4104.jpg
-cosine similarity: 70.56%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4112.jpg
-cosine similarity: 66.21%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4119.jpg
-cosine similarity: 69.6%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4122.jpg
-cosine similarity: 60.07%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4129.jpg
-cosine similarity: 67.72%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4137.jpg
-cosine similarity: 72.35%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4159.jpg
-cosine similarity: 70.49%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4173.jpg
-cosine similarity: 63.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4186.jpg
-cosine similarity: 66.88%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4193.jpg
-cosine similarity: 63.88%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4205.jpg
-cosine similarity: 69.9%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\421.jpg
-cosine similarity: 64.08%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4214.jpg
-cosine similarity: 78.85%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4234.jpg
-cosine similarity: 69.05%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4244.jpg
-cosine similarity: 64.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4261.jpg
-cosine similarity: 69.65%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4262.jpg
-cosine similarity: 66.3%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4263.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1704.jpg
+cosine similarity: 77.5%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3236.jpg
+cosine similarity: 77.36%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2886.jpg
+cosine similarity: 77.35%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1550.jpg
+cosine similarity: 77.16%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2241.jpg
+cosine similarity: 77.16%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3269.jpg
+cosine similarity: 77.02%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4365.jpg
+cosine similarity: 76.96%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1525.jpg
+cosine similarity: 76.9%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3543.jpg
+cosine similarity: 76.69%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1634.jpg
+cosine similarity: 76.67%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3958.jpg
+cosine similarity: 76.63%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3508.jpg
+cosine similarity: 76.56%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3763.jpg
+cosine similarity: 76.52%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4346.jpg
+cosine similarity: 76.51%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\752.jpg
+cosine similarity: 76.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1055.jpg
+cosine similarity: 76.25%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\243.jpg
+cosine similarity: 76.13%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\109.jpg
+cosine similarity: 76.06%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4026.jpg
+cosine similarity: 75.84%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2106.jpg
 cosine similarity: 75.63%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4272.jpg
-cosine similarity: 61.29%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4281.jpg
-cosine similarity: 71.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4284.jpg
-cosine similarity: 73.43%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4289.jpg
-cosine similarity: 70.19%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4294.jpg
-cosine similarity: 77.76%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4299.jpg
-cosine similarity: 61.34%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4307.jpg
-cosine similarity: 91.59%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4320.jpg
-cosine similarity: 67.4%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4346.jpg
-cosine similarity: 65.13%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4354.jpg
-cosine similarity: 74.71%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4361.jpg
-cosine similarity: 67.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\438.jpg
-cosine similarity: 83.91%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4384.jpg
-cosine similarity: 61.86%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4397.jpg
-cosine similarity: 74.85%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\44.jpg
-cosine similarity: 70.12%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4401.jpg
-cosine similarity: 60.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4419.jpg
-cosine similarity: 82.93%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4422.jpg
-cosine similarity: 63.57%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4430.jpg
-cosine similarity: 62.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4434.jpg
-cosine similarity: 80.3%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4435.jpg
-cosine similarity: 78.79%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4438.jpg
-cosine similarity: 73.63%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4446.jpg
-cosine similarity: 83.37%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4459.jpg
-cosine similarity: 61.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\449.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3721.jpg
+cosine similarity: 75.63%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2939.jpg
+cosine similarity: 75.6%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1160.jpg
+cosine similarity: 75.59%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4701.jpg
+cosine similarity: 75.59%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3290.jpg
+cosine similarity: 75.29%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\61.jpg
+cosine similarity: 75.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\821.jpg
+cosine similarity: 75.16%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4721.jpg
+cosine similarity: 75.14%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3055.jpg
+cosine similarity: 75.09%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\300.jpg
+cosine similarity: 75.04%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4681.jpg
+cosine similarity: 74.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3738.jpg
+cosine similarity: 74.73%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3618.jpg
+cosine similarity: 74.7%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\155.jpg
+cosine similarity: 74.52%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\548.jpg
+cosine similarity: 74.42%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\160.jpg
+cosine similarity: 74.35%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4203.jpg
+cosine similarity: 74.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1263.jpg
+cosine similarity: 74.21%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3077.jpg
+cosine similarity: 74.07%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3539.jpg
+cosine similarity: 74.06%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4272.jpg
+cosine similarity: 74.0%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\428.jpg
+cosine similarity: 73.89%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3439.jpg
+cosine similarity: 73.47%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3457.jpg
+cosine similarity: 73.41%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\200.jpg
+cosine similarity: 73.31%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4559.jpg
+cosine similarity: 73.25%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1292.jpg
+cosine similarity: 73.17%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3006.jpg
+cosine similarity: 73.14%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2958.jpg
+cosine similarity: 73.13%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1657.jpg
+cosine similarity: 73.02%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3377.jpg
+cosine similarity: 72.83%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\707.jpg
+cosine similarity: 72.83%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2174.jpg
+cosine similarity: 72.81%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\282.jpg
+cosine similarity: 72.68%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2878.jpg
+cosine similarity: 72.34%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3630.jpg
+cosine similarity: 72.33%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4704.jpg
+cosine similarity: 72.31%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4512.jpg
+cosine similarity: 72.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2857.jpg
+cosine similarity: 72.22%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3223.jpg
+cosine similarity: 72.09%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2893.jpg
+cosine similarity: 72.06%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1187.jpg
+cosine similarity: 71.94%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1424.jpg
+cosine similarity: 71.82%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4722.jpg
+cosine similarity: 71.81%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1531.jpg
+cosine similarity: 71.78%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\292.jpg
+cosine similarity: 71.7%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1009.jpg
+cosine similarity: 71.68%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\806.jpg
+cosine similarity: 71.65%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4583.jpg
+cosine similarity: 71.63%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1414.jpg
+cosine similarity: 71.48%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4207.jpg
+cosine similarity: 71.47%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3843.jpg
+cosine similarity: 71.3%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\921.jpg
+cosine similarity: 71.3%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3748.jpg
+cosine similarity: 71.25%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1074.jpg
+cosine similarity: 71.21%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2213.jpg
+cosine similarity: 71.03%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4234.jpg
+cosine similarity: 70.95%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4505.jpg
+cosine similarity: 70.9%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3512.jpg
+cosine similarity: 70.88%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1534.jpg
+cosine similarity: 70.87%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1709.jpg
+cosine similarity: 70.82%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\419.jpg
+cosine similarity: 70.79%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4382.jpg
+cosine similarity: 70.73%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\92.jpg
+cosine similarity: 70.72%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1933.jpg
+cosine similarity: 70.68%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3126.jpg
+cosine similarity: 70.55%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1131.jpg
+cosine similarity: 70.53%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2637.jpg
+cosine similarity: 70.48%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3621.jpg
+cosine similarity: 70.47%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3086.jpg
+cosine similarity: 70.25%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4289.jpg
+cosine similarity: 70.2%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3571.jpg
+cosine similarity: 70.14%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1331.jpg
+cosine similarity: 70.11%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1751.jpg
+cosine similarity: 70.01%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\815.jpg
+cosine similarity: 69.9%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3501.jpg
+cosine similarity: 69.84%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4342.jpg
+cosine similarity: 69.76%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1906.jpg
+cosine similarity: 69.74%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1568.jpg
+cosine similarity: 69.69%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3606.jpg
+cosine similarity: 69.67%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3106.jpg
+cosine similarity: 69.59%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1990.jpg
+cosine similarity: 69.59%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\581.jpg
+cosine similarity: 69.57%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\846.jpg
 cosine similarity: 69.52%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4505.jpg
-cosine similarity: 77.93%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4509.jpg
-cosine similarity: 77.68%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4512.jpg
-cosine similarity: 67.21%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4519.jpg
-cosine similarity: 67.98%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\452.jpg
-cosine similarity: 63.66%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\454.jpg
-cosine similarity: 63.75%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4559.jpg
-cosine similarity: 80.9%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\456.jpg
-cosine similarity: 60.09%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\458.jpg
-cosine similarity: 69.93%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4583.jpg
-cosine similarity: 60.43%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4616.jpg
-cosine similarity: 63.39%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4619.jpg
-cosine similarity: 67.54%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4622.jpg
-cosine similarity: 77.26%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4640.jpg
-cosine similarity: 79.09%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4667.jpg
-cosine similarity: 62.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4670.jpg
-cosine similarity: 61.52%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4671.jpg
-cosine similarity: 62.12%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4673.jpg
-cosine similarity: 79.53%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4681.jpg
-cosine similarity: 64.37%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4687.jpg
-cosine similarity: 65.58%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4701.jpg
-cosine similarity: 60.09%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4704.jpg
-cosine similarity: 66.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4716.jpg
-cosine similarity: 80.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4722.jpg
-cosine similarity: 64.25%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\4737.jpg
-cosine similarity: 68.1%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\483.jpg
-cosine similarity: 60.87%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\485.jpg
-cosine similarity: 70.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\489.jpg
-cosine similarity: 62.68%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\492.jpg
-cosine similarity: 81.3%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\51.jpg
-cosine similarity: 87.18%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\510.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1016.jpg
+cosine similarity: 69.47%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\333.jpg
+cosine similarity: 69.34%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4430.jpg
+cosine similarity: 69.28%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3066.jpg
+cosine similarity: 69.07%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2806.jpg
+cosine similarity: 69.07%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2792.jpg
+cosine similarity: 69.0%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2965.jpg
+cosine similarity: 68.94%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4104.jpg
+cosine similarity: 68.92%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4687.jpg
+cosine similarity: 68.81%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4509.jpg
+cosine similarity: 68.79%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\323.jpg
 cosine similarity: 68.77%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\511.jpg
-cosine similarity: 63.35%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\527.jpg
-cosine similarity: 75.78%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\528.jpg
-cosine similarity: 82.89%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\536.jpg
-cosine similarity: 68.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\542.jpg
-cosine similarity: 67.12%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\548.jpg
-cosine similarity: 75.0%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\555.jpg
-cosine similarity: 62.36%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\568.jpg
-cosine similarity: 65.8%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\571.jpg
-cosine similarity: 60.33%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\576.jpg
-cosine similarity: 64.03%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\581.jpg
-cosine similarity: 72.7%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\600.jpg
-cosine similarity: 65.73%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\607.jpg
-cosine similarity: 66.11%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\61.jpg
-cosine similarity: 81.35%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\614.jpg
-cosine similarity: 61.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\654.jpg
-cosine similarity: 74.13%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\659.jpg
-cosine similarity: 67.54%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\662.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1023.jpg
+cosine similarity: 68.64%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2972.jpg
+cosine similarity: 68.63%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3366.jpg
+cosine similarity: 68.51%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3376.jpg
+cosine similarity: 68.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1.jpg
+cosine similarity: 68.39%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1258.jpg
+cosine similarity: 68.33%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\528.jpg
+cosine similarity: 68.27%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4134.jpg
+cosine similarity: 68.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1880.jpg
+cosine similarity: 68.2%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\491.jpg
+cosine similarity: 68.13%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2288.jpg
+cosine similarity: 68.12%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2996.jpg
+cosine similarity: 68.05%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3554.jpg
+cosine similarity: 68.0%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\53.jpg
+cosine similarity: 67.98%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1896.jpg
+cosine similarity: 67.84%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3656.jpg
+cosine similarity: 67.83%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2151.jpg
+cosine similarity: 67.73%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4588.jpg
+cosine similarity: 67.68%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1855.jpg
+cosine similarity: 67.66%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\114.jpg
+cosine similarity: 67.44%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\145.jpg
+cosine similarity: 67.34%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4356.jpg
+cosine similarity: 67.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3014.jpg
+cosine similarity: 67.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\668.jpg
+cosine similarity: 67.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\71.jpg
+cosine similarity: 67.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2682.jpg
+cosine similarity: 67.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3563.jpg
+cosine similarity: 67.09%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1316.jpg
+cosine similarity: 67.05%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2466.jpg
+cosine similarity: 67.03%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1192.jpg
+cosine similarity: 66.98%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\527.jpg
+cosine similarity: 66.97%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4079.jpg
+cosine similarity: 66.78%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2827.jpg
+cosine similarity: 66.75%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4122.jpg
+cosine similarity: 66.69%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3413.jpg
+cosine similarity: 66.66%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2506.jpg
+cosine similarity: 66.66%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\226.jpg
+cosine similarity: 66.61%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\474.jpg
+cosine similarity: 66.61%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3295.jpg
+cosine similarity: 66.58%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3718.jpg
+cosine similarity: 66.43%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2018.jpg
+cosine similarity: 66.43%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3565.jpg
+cosine similarity: 66.33%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\586.jpg
+cosine similarity: 66.27%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4362.jpg
+cosine similarity: 66.22%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3071.jpg
+cosine similarity: 66.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3021.jpg
+cosine similarity: 66.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2418.jpg
+cosine similarity: 66.15%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3220.jpg
+cosine similarity: 66.05%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4161.jpg
+cosine similarity: 66.04%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2437.jpg
+cosine similarity: 65.95%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4619.jpg
+cosine similarity: 65.9%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2071.jpg
+cosine similarity: 65.85%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\447.jpg
+cosine similarity: 65.85%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2507.jpg
+cosine similarity: 65.85%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2740.jpg
+cosine similarity: 65.63%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\537.jpg
+cosine similarity: 65.59%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3792.jpg
+cosine similarity: 65.57%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3749.jpg
+cosine similarity: 65.54%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4201.jpg
+cosine similarity: 65.54%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\597.jpg
+cosine similarity: 65.52%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1166.jpg
+cosine similarity: 65.48%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2664.jpg
+cosine similarity: 65.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3182.jpg
+cosine similarity: 65.4%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1908.jpg
+cosine similarity: 65.4%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2670.jpg
+cosine similarity: 65.3%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\600.jpg
+cosine similarity: 65.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1676.jpg
+cosine similarity: 65.23%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\266.jpg
+cosine similarity: 65.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3448.jpg
+cosine similarity: 65.16%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4208.jpg
+cosine similarity: 65.1%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1251.jpg
+cosine similarity: 65.02%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4617.jpg
+cosine similarity: 64.98%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\6.jpg
+cosine similarity: 64.97%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1752.jpg
+cosine similarity: 64.95%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\443.jpg
+cosine similarity: 64.95%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1840.jpg
+cosine similarity: 64.92%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4092.jpg
+cosine similarity: 64.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1753.jpg
+cosine similarity: 64.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4434.jpg
+cosine similarity: 64.86%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\54.jpg
+cosine similarity: 64.83%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3989.jpg
+cosine similarity: 64.8%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3408.jpg
+cosine similarity: 64.76%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3625.jpg
+cosine similarity: 64.75%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2678.jpg
+cosine similarity: 64.74%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\610.jpg
+cosine similarity: 64.67%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2435.jpg
+cosine similarity: 64.63%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1496.jpg
+cosine similarity: 64.6%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\592.jpg
+cosine similarity: 64.55%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2181.jpg
+cosine similarity: 64.52%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3202.jpg
+cosine similarity: 64.51%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\202.jpg
+cosine similarity: 64.47%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3419.jpg
+cosine similarity: 64.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\241.jpg
+cosine similarity: 64.42%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1627.jpg
+cosine similarity: 64.4%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2412.jpg
+cosine similarity: 64.32%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1468.jpg
+cosine similarity: 64.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2706.jpg
+cosine similarity: 64.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\938.jpg
+cosine similarity: 64.17%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1310.jpg
+cosine similarity: 64.14%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3458.jpg
+cosine similarity: 64.13%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4397.jpg
+cosine similarity: 64.08%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1453.jpg
+cosine similarity: 63.99%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2962.jpg
+cosine similarity: 63.95%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1554.jpg
+cosine similarity: 63.93%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3846.jpg
+cosine similarity: 63.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2369.jpg
+cosine similarity: 63.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2289.jpg
+cosine similarity: 63.87%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\663.jpg
+cosine similarity: 63.87%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2819.jpg
+cosine similarity: 63.86%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1428.jpg
+cosine similarity: 63.82%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1459.jpg
+cosine similarity: 63.8%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2004.jpg
+cosine similarity: 63.73%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3395.jpg
+cosine similarity: 63.72%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3547.jpg
 cosine similarity: 63.7%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\673.jpg
-cosine similarity: 72.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\68.jpg
-cosine similarity: 67.17%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\686.jpg
-cosine similarity: 67.97%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\71.jpg
-cosine similarity: 76.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\73.jpg
-cosine similarity: 81.48%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\731.jpg
-cosine similarity: 62.42%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\732.jpg
-cosine similarity: 63.59%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\735.jpg
-cosine similarity: 60.23%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\744.jpg
-cosine similarity: 60.17%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\752.jpg
-cosine similarity: 67.88%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\76.jpg
-cosine similarity: 60.31%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\769.jpg
-cosine similarity: 63.74%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\773.jpg
-cosine similarity: 70.91%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\787.jpg
-cosine similarity: 61.5%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\791.jpg
-cosine similarity: 67.1%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\799.jpg
-cosine similarity: 67.59%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\800.jpg
-cosine similarity: 71.22%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\806.jpg
-cosine similarity: 61.99%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\811.jpg
-cosine similarity: 65.32%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\82.jpg
-cosine similarity: 67.95%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\821.jpg
-cosine similarity: 79.74%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\83.jpg
-cosine similarity: 63.06%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\847.jpg
-cosine similarity: 79.05%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\864.jpg
-cosine similarity: 78.38%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\904.jpg
-cosine similarity: 83.65%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\909.jpg
-cosine similarity: 65.47%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\914.jpg
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3533.jpg
+cosine similarity: 63.69%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2078.jpg
+cosine similarity: 63.67%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1799.jpg
+cosine similarity: 63.64%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4313.jpg
+cosine similarity: 63.58%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1605.jpg
+cosine similarity: 63.54%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3616.jpg
+cosine similarity: 63.54%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3927.jpg
+cosine similarity: 63.44%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3383.jpg
+cosine similarity: 63.37%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4697.jpg
+cosine similarity: 63.34%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3698.jpg
+cosine similarity: 63.29%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\214.jpg
+cosine similarity: 63.27%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1817.jpg
+cosine similarity: 63.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3510.jpg
+cosine similarity: 63.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\542.jpg
+cosine similarity: 63.22%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3831.jpg
+cosine similarity: 63.21%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\120.jpg
+cosine similarity: 63.2%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4445.jpg
+cosine similarity: 63.16%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4724.jpg
+cosine similarity: 63.15%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3400.jpg
+cosine similarity: 63.13%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2091.jpg
+cosine similarity: 63.1%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2793.jpg
+cosine similarity: 63.05%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3930.jpg
+cosine similarity: 63.01%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2229.jpg
+cosine similarity: 63.01%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\478.jpg
+cosine similarity: 63.0%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\108.jpg
+cosine similarity: 62.98%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\726.jpg
+cosine similarity: 62.92%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3895.jpg
+cosine similarity: 62.91%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2739.jpg
+cosine similarity: 62.88%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3863.jpg
+cosine similarity: 62.86%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3354.jpg
+cosine similarity: 62.85%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4069.jpg
+cosine similarity: 62.84%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1267.jpg
+cosine similarity: 62.8%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\191.jpg
+cosine similarity: 62.73%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2672.jpg
+cosine similarity: 62.72%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\540.jpg
+cosine similarity: 62.71%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3879.jpg
+cosine similarity: 62.7%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4535.jpg
+cosine similarity: 62.66%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1143.jpg
+cosine similarity: 62.6%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3410.jpg
+cosine similarity: 62.53%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\5.jpg
+cosine similarity: 62.31%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\724.jpg
+cosine similarity: 62.3%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1912.jpg
+cosine similarity: 62.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2185.jpg
+cosine similarity: 62.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\510.jpg
+cosine similarity: 62.18%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1892.jpg
 cosine similarity: 62.15%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\938.jpg
-cosine similarity: 61.55%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\940.jpg
-cosine similarity: 73.44%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\952.jpg
-cosine similarity: 64.01%
-C:/Users/attar/OneDrive/Documents/GitHub/Algeo02_22121/src/back-end/image/dataset\977.jpg
-cosine similarity: 60.93%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1287.jpg
+cosine similarity: 62.11%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2410.jpg
+cosine similarity: 62.09%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1673.jpg
+cosine similarity: 62.07%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4121.jpg
+cosine similarity: 62.04%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4128.jpg
+cosine similarity: 62.03%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2728.jpg
+cosine similarity: 61.97%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4112.jpg
+cosine similarity: 61.84%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4354.jpg
+cosine similarity: 61.74%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1061.jpg
+cosine similarity: 61.73%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4384.jpg
+cosine similarity: 61.69%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2661.jpg
+cosine similarity: 61.66%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4261.jpg
+cosine similarity: 61.54%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4491.jpg
+cosine similarity: 61.52%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4680.jpg
+cosine similarity: 61.52%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3033.jpg
+cosine similarity: 61.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4176.jpg
+cosine similarity: 61.46%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3849.jpg
+cosine similarity: 61.38%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3369.jpg
+cosine similarity: 61.37%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3720.jpg
+cosine similarity: 61.33%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1921.jpg
+cosine similarity: 61.3%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1891.jpg
+cosine similarity: 61.26%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2171.jpg
+cosine similarity: 61.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1229.jpg
+cosine similarity: 61.21%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4089.jpg
+cosine similarity: 61.21%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3497.jpg
+cosine similarity: 61.17%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\947.jpg
+cosine similarity: 61.13%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\529.jpg
+cosine similarity: 61.12%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\939.jpg
+cosine similarity: 61.1%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3651.jpg
+cosine similarity: 61.07%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4508.jpg
+cosine similarity: 60.97%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1096.jpg
+cosine similarity: 60.95%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2824.jpg
+cosine similarity: 60.92%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2950.jpg
+cosine similarity: 60.88%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4716.jpg
+cosine similarity: 60.88%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4005.jpg
+cosine similarity: 60.87%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2610.jpg
+cosine similarity: 60.87%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\494.jpg
+cosine similarity: 60.81%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1870.jpg
+cosine similarity: 60.8%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4229.jpg
+cosine similarity: 60.76%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3807.jpg
+cosine similarity: 60.7%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\51.jpg
+cosine similarity: 60.69%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3143.jpg
+cosine similarity: 60.55%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4586.jpg
+cosine similarity: 60.55%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2636.jpg
+cosine similarity: 60.5%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1822.jpg
+cosine similarity: 60.39%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\44.jpg
+cosine similarity: 60.39%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3561.jpg
+cosine similarity: 60.35%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\4494.jpg
+cosine similarity: 60.34%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3399.jpg
+cosine similarity: 60.32%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1794.jpg
+cosine similarity: 60.24%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\3048.jpg
+cosine similarity: 60.2%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\2986.jpg
+cosine similarity: 60.16%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\777.jpg
+cosine similarity: 60.1%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\1333.jpg
+cosine similarity: 60.04%
+C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset\362.jpg
+cosine similarity: 60.03%
