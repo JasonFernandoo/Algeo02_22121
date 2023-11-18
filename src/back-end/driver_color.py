@@ -3,8 +3,11 @@ import cProfile
 import cv2
 import numpy as np
 import os
+import json
 import time
 from functools import lru_cache
+from flask import Flask, jsonify, request
+from werkzeug.utils import secure_filename
 
 start_time = time.time()
 
@@ -41,14 +44,13 @@ class ImageComparator:
         hist2 = self.calculate_histograms(image2_path)
         similarity = self.calculate_cosine_similarity(hist1, hist2)
         return image2_path, similarity
+    
 
-    def compare_images_in_folder(self, folder_path, save_path=None):
+    def compare_images_in_folder(self, folder_path):
         global hist1
         hist1 = self.calculate_histograms(self.image1_path)
 
-        similar_images = []
-        similar_percent = []
-        most_similar_images = []
+        similar_images = []  # Memindahkan similar_images ke sini untuk menyimpan semua gambar
         highest_similarity = -1
 
         with concurrent.futures.ThreadPoolExecutor() as executor:
@@ -60,49 +62,40 @@ class ImageComparator:
                 image2_path, similarity = future.result()
 
                 if similarity > 0.6:
-                    similar_images.append((image2_path, similarity))
-                    similar_percent.append(similarity)
+                    similar_images.append((image2_path, similarity))  # Menambahkan semua gambar dengan similarity > 0.6
 
                 if similarity > highest_similarity:
                     highest_similarity = similarity
-                    most_similar_images = [(image2_path, similarity)]
-                elif similarity == highest_similarity:
-                    most_similar_images.append((image2_path, similarity))
 
-        # Sort similar images by similarity (high to low)
         similar_images.sort(key=lambda x: x[1], reverse=True)
 
-        i = 0
-        if save_path and similar_images:
-            with open(save_path, 'w') as file:
-                for path, sim in similar_images:
-                    file.write(path + '\n' + "cosine similarity: " + str(round(sim * 100, 2)) + '%' + '\n')
-                    i += 1
+        # if save_path and similar_images:
+        #     with open(save_path, 'w') as file:
+        #         for path, sim in similar_images:
+        #             file.write(path + '\n' + "cosine similarity: " + str(round(sim * 100, 2)) + '%' + '\n')
 
-        return most_similar_images, highest_similarity
+        return similar_images, highest_similarity
 
-if __name__ == "__main__":
-    profiler = cProfile.Profile()
-    profiler.enable()
+def get_similar_images():
+    current_directory = os.getcwd()
 
-    image1_path = 'C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/search/105.jpg'
-    image_folder = 'C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset'
-    save_path = 'C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/CBIR/color/similar_color.txt' 
+    # Mengganti path dengan path relatif terhadap direktori saat ini
+    image1_path = os.path.join('database/image', 'image.jpg')
+    image_folder = os.path.join('database/dataset')
+    
 
     comparator = ImageComparator(image1_path)
-    similar_images, highest_similarity = comparator.compare_images_in_folder(image_folder, save_path)
+    similar_images, highest_similarity = comparator.compare_images_in_folder(image_folder)
+
+    similar_images_data = []
 
     if similar_images:
-        print("Most similar images:")
         for path, sim in similar_images:
-            print(path, "Cosine Similarity:", sim * 100, "%")
+            if sim > 0.6:
+                path.replace
+                similar_images_data.append({"image_url": path, "similarity": sim * 100})
+
+    if similar_images_data:
+        return similar_images_data
     else:
-        print("No similar images found with similarity above 0.6.")
-
-    # Stop profiling and print the results
-    profiler.disable()
-    profiler.print_stats(sort='cumulative')
-
-    end_time = time.time()
-    execution_time = end_time - start_time
-    print("Waktu eksekusi:", execution_time, "detik")
+        return {"message": "No similar images found with similarity above 0.6."}
