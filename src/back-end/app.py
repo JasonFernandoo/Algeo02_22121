@@ -2,7 +2,9 @@ import os
 from flask import Flask, request, redirect, render_template, jsonify
 from driver_color import get_similar_color
 from driver_texture import get_similar_texture
+import time
 
+start_time = time.time()
 app = Flask(__name__, static_folder="static")
 UPLOAD_FOLDER_IMAGE = "database/image"
 UPLOAD_FOLDER_DATASET = "database/dataset"
@@ -49,3 +51,7 @@ def calculate():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+end_time = time.time()
+execution_time = end_time - start_time
+print("Waktu eksekusi:", execution_time, "detik")
