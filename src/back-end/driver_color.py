@@ -126,7 +126,7 @@ class ImageComparator:
         hist1 = self.calculate_histograms(self.image1_path)
         
         with concurrent.futures.ThreadPoolExecutor() as executor:
-            futures = [executor.submit(self.process_image, os.path.join(folder_path, filename))
+            futures = [executor.submit(self.process_image, (folder_path + "/" + filename))
                        for filename in os.listdir(folder_path)
                        if filename.endswith(('.jpg', '.jpeg', '.png'))]
             
@@ -147,8 +147,8 @@ class ImageComparator:
 def get_similar_color():
     current_directory = os.getcwd()
 
-    image1_path = os.path.join('database/image', 'image.jpg')
-    image_folder = os.path.join('database/dataset')
+    image1_path = "static/image/image.jpg"
+    image_folder = "static/dataset"
     
 
     comparator = ImageComparator(image1_path)
@@ -159,7 +159,6 @@ def get_similar_color():
     if similar_images:
         for path, sim in similar_images:
             if sim > 0.6:
-                path.replace
                 similar_images_data.append({"image_url": path, "similarity": sim * 100})
 
     if similar_images_data:
