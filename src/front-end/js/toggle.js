@@ -5,9 +5,11 @@ toggle.onclick = function() {
     // ganti class toggle
     if (toggle.classList.contains("color")) {
         toggle.classList.replace("color", "texture");
+        toggle.setAttribute("value", "texture");
     }
     else {
         toggle.classList.toggle("color");
+        toggle.setAttribute("value", "color");
     }
 
     const pElements = document.querySelectorAll('p.texture');
@@ -15,7 +17,7 @@ toggle.onclick = function() {
     // fungsi ubah warna saat indicator diclick
     if(toggle.classList.contains("texture")){
         pElements.forEach(function(p) {
-            p.style.color = '#223466';
+            p.style.color = '#5c71a9';
         });
     }
     else {
@@ -25,7 +27,7 @@ toggle.onclick = function() {
     }
     if (toggle.classList.contains("color")) {
         p1Elements.forEach(function(p) {
-            p.style.color = '#223466';
+            p.style.color = '#5c71a9';
     });
     }
     else {

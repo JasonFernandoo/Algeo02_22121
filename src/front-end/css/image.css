@@ -31,7 +31,7 @@ form {
     border: 3px solid #223466;
     background: #223466;
     cursor: pointer;
-    font-size: 25px;
+    font-size: 22px;
     color: white;
     text-align: center;
     transition: all ease .50s;
@@ -128,7 +128,7 @@ figcaption {
     border: 3px solid #223466;
     background: #223466;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     text-align: center;
     transition: all ease .50s;
@@ -141,7 +141,7 @@ figcaption {
     border: 3px solid #223466;
     background: #223466a0;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     text-align: center;
 }
@@ -186,7 +186,7 @@ figcaption {
     font-family: 'Poppins', sans-serif;
 }
 .color {
-    color: #223466;
+    color: #5c71a9;
 }
 .texture {
     color: white;
@@ -199,7 +199,7 @@ figcaption {
     border: 3px solid #223466;
     background: #223466;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 25px;
     color: white;
     text-align: center;
     transition: all ease .50s;
@@ -212,7 +212,7 @@ figcaption {
     border: 3px solid #223466;
     background: #223466a0;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 28px;
     color: white;
     text-align: center;
 }
