@@ -102,10 +102,7 @@ form {
     width: 100%;
 }
 .img {
-    background: linear-gradient(45deg, rgba(255,255,255,1) 30%, rgba(123,123,123,1) 40%, rgba(255,255,255,1) 50%, rgba(123,123,123,1) 60%, rgba(255,255,255,1) 70%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-family: 'Alatsi', sans-serif;
+    color: white;
 }
 
 /* css search image */
@@ -189,16 +186,10 @@ figcaption {
     font-family: 'Poppins', sans-serif;
 }
 .color {
-    background: linear-gradient(90deg,#00dbde 20%,#fc00ff 70%);
-    font-family: 'Poppins', sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: #223466;
 }
 .texture {
-    background: white;
-    font-family: 'Poppins', sans-serif;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    color: white;
 }
 .search {
     margin-top: 3%;

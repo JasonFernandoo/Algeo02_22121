@@ -110,6 +110,7 @@ document.addEventListener('click', function(event) {
     } else if (event.target !== cameraContainer && !cameraContainer.contains(event.target)) {
         // Clicking outside of the result-tab hides it and stops capturing
         cameraContainer.classList.remove('show');
+        resultTab.classList.remove('show');
         clearInterval(captureInterval);
         shouldCapture = false; // Set the flag to false when clicking outside
     }

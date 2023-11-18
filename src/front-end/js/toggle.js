@@ -15,34 +15,22 @@ toggle.onclick = function() {
     // fungsi ubah warna saat indicator diclick
     if(toggle.classList.contains("texture")){
         pElements.forEach(function(p) {
-            p.style.background = "linear-gradient(90deg,#00dbde 20%,#fc00ff 70%)";
-            p.style.fontFamily = "'Poppins', sans-serif";
-            p.style.webkitBackgroundClip = "text";
-            p.style.webkitTextFillColor = "transparent";
+            p.style.color = '#223466';
         });
     }
     else {
         pElements.forEach(function(p) {
-            p.style.background = "white";
-            p.style.fontFamily = "'Poppins', sans-serif";
-            p.style.webkitBackgroundClip = "text";
-            p.style.webkitTextFillColor = "transparent";
+            p.style.color = 'white';
         });
     }
     if (toggle.classList.contains("color")) {
         p1Elements.forEach(function(p) {
-            p.style.background = "linear-gradient(90deg,#00dbde 20%,#fc00ff 70%)";
-            p.style.fontFamily = "'Poppins', sans-serif";
-            p.style.webkitBackgroundClip = "text";
-            p.style.webkitTextFillColor = "transparent";
+            p.style.color = '#223466';
     });
     }
     else {
         p1Elements.forEach(function(p) {
-            p.style.background = "white";
-            p.style.fontFamily = "'Poppins', sans-serif";
-            p.style.webkitBackgroundClip = "text";
-            p.style.webkitTextFillColor = "transparent";
+            p.style.color = 'white';
         });
     }
 }

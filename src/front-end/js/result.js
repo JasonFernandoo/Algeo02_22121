@@ -1,6 +1,6 @@
 function showResult() {
     const resultTab = document.getElementById('result-tab');
-    resultTab.classList.add('show');
+    resultTab.classList.add('shows');
 }
 
 document.addEventListener('click', function(event) {
@@ -12,6 +12,6 @@ document.addEventListener('click', function(event) {
         showResult();
     } else if (event.target !== resultTab && !resultTab.contains(event.target)) {
         // Clicking outside of the result-tab hides it.
-        resultTab.classList.remove('show');
+        resultTab.classList.remove('shows');
     }
 });
