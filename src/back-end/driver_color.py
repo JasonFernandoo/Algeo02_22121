@@ -1,5 +1,4 @@
 import concurrent.futures
-import cProfile
 import cv2
 import numpy as np
 import os
@@ -15,35 +14,29 @@ class ImageComparator:
     def __init__(self, image1_path):
         self.image1_path = image1_path
         self.histogram_cache = {}
-    
+
     def calculate_histograms(self, image_path, resize=True, target_size=(64, 64)):
         if image_path in self.histogram_cache:
             return self.histogram_cache[image_path]
-        
-        image = self.load_and_resize_image(image_path, resize, target_size)
+
+        image = self.read_image(image_path)
+        if resize:
+            image = self.resize_image(image, target_size)
         hsv_image = self.rgb_to_hsv(image)
         hist = self.calculate_manual_histogram(hsv_image)
         self.histogram_cache[image_path] = hist
         return hist
-    
-    def load_and_resize_image(self, image_path, resize, target_size):
-        image = self.read_image(image_path)
-        if resize:
-            image = self.resize_image(image, target_size)
-        return image
-    
-    def read_image(self, image_path):
+
+    @staticmethod
+    def read_image(image_path):
         img = open(image_path, "rb").read()
         nparr = np.frombuffer(img, np.uint8)
         image = cv2.imdecode(nparr, cv2.IMREAD_COLOR)
         return image
-    
-    def resize_image(self, image, target_size):
-        # Resizing image without using built-in function
-        resized_image = np.zeros((target_size[0], target_size[1], 3), dtype=np.uint8)
-        for i in range(target_size[0]):
-            for j in range(target_size[1]):
-                resized_image[i, j] = image[int(i * (len(image) / target_size[0])), int(j * (len(image[0]) / target_size[1]))]
+
+    @staticmethod
+    def resize_image(image, target_size):
+        resized_image = cv2.resize(image, target_size)
         return resized_image
     
     def rgb_to_hsv(self, image):
@@ -118,29 +111,29 @@ class ImageComparator:
         hist2 = self.calculate_histograms(image2_path)
         similarity = self.calculate_cosine_similarity(hist1, hist2)
         return image2_path, similarity
-    
+
     def compare_images_in_folder(self, folder_path):
         similar_images = []
         highest_similarity = -1
-        
+
         hist1 = self.calculate_histograms(self.image1_path)
-        
+
         with concurrent.futures.ThreadPoolExecutor() as executor:
             futures = [executor.submit(self.process_image, (folder_path + "/" + filename))
                        for filename in os.listdir(folder_path)
                        if filename.endswith(('.jpg', '.jpeg', '.png'))]
-            
+
             for future in concurrent.futures.as_completed(futures):
                 image2_path, similarity = future.result()
-                
+
                 if similarity > 0.6:
                     similar_images.append((image2_path, similarity))
-                
+
                 if similarity > highest_similarity:
                     highest_similarity = similarity
-        
+
         similar_images.sort(key=lambda x: x[1], reverse=True)
-        
+
         return similar_images, highest_similarity
 
 
@@ -149,7 +142,6 @@ def get_similar_color():
 
     image1_path = "static/image/image.jpg"
     image_folder = "static/dataset"
-    
 
     comparator = ImageComparator(image1_path)
     similar_images, highest_similarity = comparator.compare_images_in_folder(image_folder)
