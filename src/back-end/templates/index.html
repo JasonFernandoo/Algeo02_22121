@@ -6,52 +6,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tubes Bentar</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
-
-
 </head>
 
-<body>-
+<body>
     <form id="form1" enctype="multipart/form-data" method="POST" action="/upload">
         <input type="file" name="image" />
         <input type="file" name="dataset" multiple />
         <input type="radio" name="choice" value="color" /> Color
         <input type="radio" name="choice" value="texture" />
         Texture
-        <input type="submit" value="Submit" />
+        <input type="submit" value="Submit" id="submitButton" />
     </form>
     <div id="imageContainer"></div>
     <script>
-        var startTime = performance.now();
+        document.getElementById("form1").addEventListener("submit", function (event) {
+            event.preventDefault(); // Prevents the default form submission behavior
 
-        fetch("/color", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-            .then((response) => response.json())
-            .then((data) => {
-                if (data) {
-                    var endTime = performance.now();
-                    var runtime = endTime - startTime;
+            var startTime = performance.now();
 
-                    // Get the image container
-                    var container = document.getElementById("imageContainer");
-
-                    // Create an img element for each image URL
-                    data.forEach(function (item) {
-                        var img = document.createElement("img");
-                        img.src = item.image_url;
-                        container.appendChild(img);
-                    });
-
-                    console.log("API fetch runtime: " + runtime + " milliseconds");
-                }
+            fetch("/color", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
             })
-            .catch((error) => {
-                // Handle the error
-                console.error("Error:", error);
-            });
+                .then((response) => response.json())
+                .then((data) => {
+                    if (data) {
+                        var endTime = performance.now();
+                        var runtime = endTime - startTime;
+
+                        // Get the image container
+                        var container = document.getElementById("imageContainer");
+
+                        // Create an img element for each image URL
+                        data.forEach(function (item) {
+                            var img = document.createElement("img");
+                            img.src = item.image_url;
+                            container.appendChild(img);
+                        });
+
+                        console.log("API fetch runtime: " + runtime + " milliseconds");
+                    }
+                })
+                .catch((error) => {
+                    // Handle the error
+                    console.error("Error:", error);
+                });
+        });
     </script>
 </body>
 
