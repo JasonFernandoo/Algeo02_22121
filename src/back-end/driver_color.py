@@ -69,17 +69,11 @@ class ImageComparator:
 
         similar_images.sort(key=lambda x: x[1], reverse=True)
 
-        # if save_path and similar_images:
-        #     with open(save_path, 'w') as file:
-        #         for path, sim in similar_images:
-        #             file.write(path + '\n' + "cosine similarity: " + str(round(sim * 100, 2)) + '%' + '\n')
-
         return similar_images, highest_similarity
 
-def get_similar_images():
+def get_similar_color():
     current_directory = os.getcwd()
 
-    # Mengganti path dengan path relatif terhadap direktori saat ini
     image1_path = os.path.join('database/image', 'image.jpg')
     image_folder = os.path.join('database/dataset')
     

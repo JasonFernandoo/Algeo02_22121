@@ -8,7 +8,7 @@ import time
 from functools import lru_cache
 
 start_time = time.time()
-
+        
 @jit(nopython=True)
 def calculate_co_occurrence_matrix(image, offset, levels=16):
     co_occurrence_matrix = np.zeros((levels, levels))
@@ -86,39 +86,35 @@ class TextureCBIR:
         similarity = dot_product / (magnitude1 * magnitude2)
         return similarity
 
-    def compare_images_in_folder(self, folder_path, save_path):
+    def compare_images_in_folder(self, folder_path):
         image_paths = [os.path.join(folder_path, filename) for filename in os.listdir(folder_path) if filename.endswith(('.jpg', '.jpeg', '.png'))]
 
         with ThreadPoolExecutor(max_workers=8) as executor:
             results = list(executor.map(self.compare_images, image_paths))
 
         similar_images = [(path, sim) for path, sim in zip(image_paths, results) if sim > 0.6]
-
-        if save_path and similar_images:
-            with open(save_path, 'w') as file:
-                for path, sim in similar_images:
-                    file.write(f"{path}\nCosine Similarity: {round(sim * 100, 2)}%\n")
-
+        similar_images.sort(key=lambda x: x[1], reverse=True)
         return similar_images
 
-if __name__ == "__main__":
-    profiler = cProfile.Profile()
-    profiler.enable()
+def get_similar_texture():
+    current_directory = os.getcwd()
 
-    image1_path = 'C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/search/105.jpg'
-    image_folder = 'C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/image/dataset'
-    save_path = 'C:/Users/jonat/Documents/Koding Santuy/Algeoasik/Algeo02_22121/src/back-end/CBIR/texture/similar_texture.txt' 
-
-    cbir = TextureCBIR(image1_path)
-    similar_images = cbir.compare_images_in_folder(image_folder, save_path)
+    image1_path = os.path.join('database/image', 'image.jpg')
+    image_folder = os.path.join('database/dataset')
     
+
+    comparator = TextureCBIR(image1_path)
+    similar_images = comparator.compare_images_in_folder(image_folder)
+
+    similar_images_data = []
+
     if similar_images:
-        print("Similar images found. Check the output file for details.")
+        for path, sim in similar_images:
+            if sim > 0.6:
+                path.replace
+                similar_images_data.append({"image_url": path, "similarity": sim * 100})
+
+    if similar_images_data:
+        return similar_images_data
     else:
-        print("No similar images found.")
-
-    profiler.disable()
-    profiler.print_stats()
-
-    end_time = time.time()
-    print("Execution Time:", end_time - start_time, "seconds")
+        return {"message": "No similar images found with similarity above 0.6."}
