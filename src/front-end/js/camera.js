@@ -101,10 +101,12 @@ function showCamera() {
 document.addEventListener('click', function(event) {
     const cameraContainer = document.getElementById('cameraContainer');
     const button = document.getElementById('captureButton');
+    const resultTab = document.getElementById('result-tab');
 
     if (event.target === button) {
         // Clicking the "Search" button should show the result-tab, but don't hide it.
         showCamera();
+        resultTab.classList.add('show');
     } else if (event.target !== cameraContainer && !cameraContainer.contains(event.target)) {
         // Clicking outside of the result-tab hides it and stops capturing
         cameraContainer.classList.remove('show');
