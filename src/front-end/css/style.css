@@ -19,6 +19,7 @@
 body{
     background: url(../images/body_photo.jpg);
     background-attachment: fixed;
+    background-size: cover;
 }
 
 section {
