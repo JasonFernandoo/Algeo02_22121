@@ -145,7 +145,7 @@
                 <!--input gambar-->
                 <div class="input-img">
                     <label for="input-file" id="drop-area">
-                        <input type="file" accept="image/*" id="input-file" name="input-file" hidden/>
+                        <input type="file" accept="image/*" id="input-file" name="input-file" hidden>
                         <div class="view-img" id="view-img">
                             <img class="img-view" src="../static/images/upload.png">
                             <p class="img">Drag and drop or click <br> to upload image</p>
@@ -161,15 +161,16 @@
                     <h2 class="img">File Name :</h2>
                     <figcaption id="file-name">No file chosen</figcaption>
                     <button type="button" id="captureButton" class="cameraButton">Camera</button>
-                    <button type="button" id="toggle" class="color" value="color" />
+                    <button type="button" id="toggle" class="color" value="color">
                         <i class="indicator"></i>
                         <div class="toggle-text">
                             <p class="color">color</p>
                             <p class="texture">texture</p>
                         </div>
                     </button>
-                    <input type="file" name="dataset" multiple id="datasetInput" />   
-                    <input type="submit" onclick="showResult()" id="search" class="search" value="Search" />
+                    <input type="file" name="dataset" id="datasetInput" webkitdirectory directory multiple style="display: none">
+                    <button type="button" class="dataSet" id="uploadButton">Upload Data Set</button>   
+                    <input type="submit" onclick="showResult()" id="search" class="search" value="Search">
                 </div>
             </form>
         </div>

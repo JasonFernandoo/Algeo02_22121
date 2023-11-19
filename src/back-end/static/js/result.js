@@ -50,7 +50,9 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 
     var startTime = performance.now();
+    var toggleButton = document.getElementById('toggle');
 
+    if (toggleButton.value === 'color' ) {
         fetch("/color", {
             method: "POST",
             headers: {
@@ -84,49 +86,73 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.error("Error:", error);
             });
 
+        } else {
+            fetch("/texture", {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            })
+                .then((response) => response.json())
+                .then((data) => {
+                    if (data) {
+                        var endTime = performance.now();
+                        var runtime = endTime - startTime;
+    
+                        // Get the image container
+                        var container = document.getElementById("imageContainer");
+    
+                        // Create an img element for each image URL
+                        data.forEach(function (item) {
+                            var img = document.createElement("img");
+                            img.src = item.image_url;
+                            container.appendChild(img);
+                        });
+    
+                        // Display pagination
+                        displayPagination(data);
+    
+                        console.log("API fetch runtime: " + runtime + " milliseconds");
+                    }
+                })
+                .catch((error) => {
+                    // Handle the error
+                    console.error("Error:", error);
+                });
+        }
+
         // Function to display pagination
         function displayPagination(data) {
             var container = document.getElementById("pagination");
             var itemsPerPage = 8;
             var totalPages = Math.ceil(data.length / itemsPerPage);
-        
-            var maxButtons = 10;
-            var currentPage = 1;
-        
-            if (totalPages > maxButtons) {
-                currentPage = Math.min(currentPage, totalPages - Math.floor(maxButtons / 2));
-            }
-        
-            for (var i = 0; i < Math.min(maxButtons, totalPages); i++) {
+
+            for (var i = 1; i <= totalPages; i++) {
                 var pageButton = document.createElement("button");
-                var pageNumber = currentPage + i;
-        
-                if (pageNumber <= totalPages) {
-                    pageButton.textContent = pageNumber;
-        
-                    pageButton.addEventListener("click", function () {
-                        var currentPage = parseInt(this.textContent);
-                        showImagesPerPage(data, currentPage, itemsPerPage);
-                    });
-        
-                    container.appendChild(pageButton);
-                }
+                pageButton.textContent = i;
+
+                pageButton.addEventListener("click", function () {
+                    var currentPage = parseInt(this.textContent);
+                    showImagesPerPage(data, currentPage, itemsPerPage);
+                });
+
+                container.appendChild(pageButton);
             }
-        
+
             // Show the first page by default
             showImagesPerPage(data, 1, itemsPerPage);
         }
-        
+
         // Function to show images for a specific page
         function showImagesPerPage(data, currentPage, itemsPerPage) {
             var container = document.getElementById("imageContainer");
             container.innerHTML = ""; // Clear existing images
-        
+
             var startIndex = (currentPage - 1) * itemsPerPage;
             var endIndex = startIndex + itemsPerPage;
-        
+
             var pageImages = data.slice(startIndex, endIndex);
-        
+
             // Create an img element for each image URL
             pageImages.forEach(function (item) {
                 var img = document.createElement("img");

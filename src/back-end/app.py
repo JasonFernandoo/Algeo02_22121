@@ -203,6 +203,10 @@ def colorRoute():
     result = get_similar_color()
     return jsonify(result)
 
+@app.route("/texture", methods=["POST"])
+def textureRoute():
+    result = get_similar_texture()
+    return jsonify(result)
 
 if __name__ == "__main__":
     app.run(debug=True)

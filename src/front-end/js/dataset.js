@@ -1,8 +1,8 @@
 document.getElementById('uploadButton').addEventListener('click', function () {
-    document.getElementById('folderInput').click();
+    document.getElementById('datasetInput').click();
 });
 
-document.getElementById('folderInput').addEventListener('change', function () {
+document.getElementById('datasetInput').addEventListener('change', function () {
     const selectedFiles = this.files;
     if (selectedFiles.length > 0) {
         // Handle the selected folder and its contents here
