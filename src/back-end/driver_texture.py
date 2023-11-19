@@ -99,9 +99,12 @@ class TextureCBIR:
 def get_similar_texture():
     current_directory = os.getcwd()
 
-    image1_path = os.path.join('database/image', 'image.jpg')
-    image_folder = os.path.join('database/dataset')
-    
+    # image1_path = os.path.join('database/image', 'image.jpg')
+    # image_folder = os.path.join('database/dataset')
+    # output_file_path = os.path.join(current_directory, 'driver.txt')
+    image1_path = os.path.join('static/image', 'image.jpg')
+    image_folder = os.path.join('static/dataset')
+    output_file_path = os.path.join(current_directory, 'texture.txt')
 
     comparator = TextureCBIR(image1_path)
     similar_images = comparator.compare_images_in_folder(image_folder)
@@ -113,8 +116,14 @@ def get_similar_texture():
             if sim > 0.6:
                 path.replace
                 similar_images_data.append({"image_url": path, "similarity": sim * 100})
+                
 
     if similar_images_data:
-        return similar_images_data
+        # Write results to the output file
+        with open(output_file_path, 'w') as output_file:
+            for data in similar_images_data:
+                output_file.write(f"Image URL: {data['image_url']}, Similarity: {data['similarity']:.2f}%\n")
+                
+        return {"message": f"Results written to {output_file_path}"}
     else:
         return {"message": "No similar images found with similarity above 0.6."}
