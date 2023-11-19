@@ -1,0 +1,16 @@
+Image URL: static/dataset/data54.jpg, Similarity: 100.00%
+Image URL: static/dataset/data36.jpg, Similarity: 88.66%
+Image URL: static/dataset/data50.jpg, Similarity: 80.28%
+Image URL: static/dataset/data55.jpg, Similarity: 79.68%
+Image URL: static/dataset/data16.jpg, Similarity: 74.76%
+Image URL: static/dataset/data45.jpg, Similarity: 73.86%
+Image URL: static/dataset/data23.jpg, Similarity: 72.14%
+Image URL: static/dataset/data10.jpg, Similarity: 72.06%
+Image URL: static/dataset/data17.jpg, Similarity: 71.10%
+Image URL: static/dataset/data30.jpg, Similarity: 69.99%
+Image URL: static/dataset/data51.jpg, Similarity: 67.77%
+Image URL: static/dataset/data3.jpg, Similarity: 67.46%
+Image URL: static/dataset/data29.jpg, Similarity: 67.05%
+Image URL: static/dataset/data27.jpg, Similarity: 66.91%
+Image URL: static/dataset/data25.jpg, Similarity: 63.40%
+Image URL: static/dataset/data22.jpg, Similarity: 61.15%

@@ -35,17 +35,17 @@ dropArea.addEventListener("drop", function (e) {
 
 function sendFileToBackend(file) {
     const formData = new FormData();
-    formData.append("img", file);
+    formData.append("files", file);
 
     fetch("/upload", {
         method: "POST",
         body: formData,
     })
-    .then(response => response.json())
-    .then(data => {
-        console.log("File uploaded successfully:", data);
-        // Handle the response from the backend as needed
-    })
+    // .then(response => response.json())
+    // .then(data => {
+    //     console.log("File uploaded successfully:", data);
+    //     // Handle the response from the backend as needed
+    // })
     .catch(error => {
         console.error("Error uploading file:", error);
     });

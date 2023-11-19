@@ -174,6 +174,7 @@ def get_similar_color():
 
     comparator = ImageComparator(image1_path)
     similar_images, highest_similarity = comparator.compare_images_in_folder(image_folder)
+    output_file_path = os.path.join(current_directory, 'color.txt')
 
     similar_images_data = []
 
@@ -183,6 +184,10 @@ def get_similar_color():
                 similar_images_data.append({"image_url": path, "similarity": sim * 100})
 
     if similar_images_data:
+        # Write results to the output file
+        with open(output_file_path, 'w') as output_file:
+            for data in similar_images_data:
+                output_file.write(f"Image URL: {data['image_url']}, Similarity: {data['similarity']:.2f}%\n")
         return similar_images_data
     else:
         return {"message": "No similar images found with similarity above 0.6."}

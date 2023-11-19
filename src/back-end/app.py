@@ -131,7 +131,7 @@
 #     app.run(debug=True)
 
 import os
-from flask import Flask, request, render_template, jsonify, redirect, url_for
+from flask import Flask, request, render_template, jsonify, redirect
 from flask_cors import CORS
 from driver_color import get_similar_color
 from driver_texture import get_similar_texture

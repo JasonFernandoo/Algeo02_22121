@@ -102,8 +102,8 @@ def get_similar_texture():
     # image1_path = os.path.join('database/image', 'image.jpg')
     # image_folder = os.path.join('database/dataset')
     # output_file_path = os.path.join(current_directory, 'driver.txt')
-    image1_path = os.path.join('static/image', 'image.jpg')
-    image_folder = os.path.join('static/dataset')
+    image1_path = "static/image/image.jpg"
+    image_folder = "static/dataset"
     output_file_path = os.path.join(current_directory, 'texture.txt')
 
     comparator = TextureCBIR(image1_path)
@@ -114,7 +114,6 @@ def get_similar_texture():
     if similar_images:
         for path, sim in similar_images:
             if sim > 0.6:
-                path.replace
                 similar_images_data.append({"image_url": path, "similarity": sim * 100})
                 
 
@@ -124,6 +123,6 @@ def get_similar_texture():
             for data in similar_images_data:
                 output_file.write(f"Image URL: {data['image_url']}, Similarity: {data['similarity']:.2f}%\n")
                 
-        return {"message": f"Results written to {output_file_path}"}
+        return similar_images_data
     else:
         return {"message": "No similar images found with similarity above 0.6."}
