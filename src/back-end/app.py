@@ -85,7 +85,7 @@ def clearFolder(folder_path):
 
 @app.route("/", methods=["GET"])
 def index():
-    return render_template("index.html")
+    return render_template("indexs.html")
 
 @app.route("/upload", methods=["POST"])
 def calculate():

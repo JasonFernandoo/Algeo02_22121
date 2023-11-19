@@ -3,15 +3,36 @@ document.getElementById('uploadButton').addEventListener('click', function () {
 });
 
 document.getElementById('folderInput').addEventListener('change', function () {
-    // Handle the selected folder and its contents here
     const selectedFiles = this.files;
     if (selectedFiles.length > 0) {
-        // You can access the selected folder's contents using selectedFiles
-        // For example, you can loop through the files and process them
+        // Handle the selected folder and its contents here
+        // You can use FormData to send the files to the server
+        const formData = new FormData();
+
         for (let i = 0; i < selectedFiles.length; i++) {
             const file = selectedFiles[i];
-            // Do something with the file, e.g., display or upload it
-            console.log(file.name);
+            // Append each file to the FormData object with the same key
+            formData.append('files[]', file);
         }
+
+        // Send the FormData object to the server using fetch
+        fetch('/upload-folder', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json(); // Assuming the server returns JSON
+            } else {
+                throw new Error('Folder upload failed.');
+            }
+        })
+        .then(data => {
+            // Handle the response from the server if needed
+            console.log(data);
+        })
+        .catch(error => {
+            console.error(error);
+        });
     }
 });

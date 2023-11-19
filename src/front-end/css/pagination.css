@@ -1,0 +1,36 @@
+#pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#pagination button {
+    background-color: white;
+    color: #223466;
+    border: 1px solid #223466;
+    padding: 8px 16px;
+    margin: 0 5px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#pagination button:hover {
+    background-color: #223466;
+    color : white;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#imageContainer img {
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 0px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
