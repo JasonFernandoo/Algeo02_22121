@@ -23,7 +23,10 @@ class ImageComparator:
         if resize:
             image = self.resize_image(image, target_size)
         hsv_image = self.rgb_to_hsv(image)
-        hist = self.calculate_manual_histogram(hsv_image)
+        # hist = self.calculate_manual_histogram(hsv_image)
+        hist = cv2.calcHist([hsv_image], [0, 1, 2], None, [8, 12, 3], [0, 360, 0, 100, 0, 100])
+        cv2.normalize(hist, hist, alpha=0, beta=1, norm_type=cv2.NORM_MINMAX)
+
         self.histogram_cache[image_path] = hist
         return hist
 
@@ -39,62 +42,88 @@ class ImageComparator:
         resized_image = cv2.resize(image, target_size)
         return resized_image
     
+
+    # def rgb_to_hsv(self, image):
+    #     r, g, b = image[:, :, 0], image[:, :, 1], image[:, :, 2]
+    #     r, g, b = r / 255.0, g / 255.0, b / 255.0
+
+    #     cmax = np.maximum(np.maximum(r, g), b)
+    #     cmin = np.minimum(np.minimum(r, g), b)
+    #     delta = cmax - cmin
+
+    #     h = np.zeros_like(cmax)
+        
+    #     # Calculate h values avoiding zero division and adjusting conditions
+    #     mask = delta != 0
+    #     cond1 = cmax == r
+    #     cond2 = cmax == g
+        
+    #     # h[mask & cond1] = (60 * ((g - b) / delta) + 360) % 360
+    #     # h[mask & cond2] = (60 * ((b - r) / delta) + 120) % 360
+    #     # h[mask & ~cond1 & ~cond2] = (60 * ((r - g) / delta) + 240) % 360
+        
+    #     h[mask & cond1] = (60 * (((g - b) / delta)[mask & cond1] % 6))
+    #     h[mask & cond2] = (60 * (((b - r) / delta)[mask & cond2] + 2))
+    #     h[mask & ~cond1 & ~cond2] = (60 * (((r - g) / delta)[mask & ~cond1 & ~cond2] + 4))
+
+    #     s = np.zeros_like(cmax)
+    #     s[cmax != 0] = (delta / cmax)[cmax != 0] * 100
+
+    #     v = cmax * 100
+
+    #     hsv_image = np.dstack((h, s, v)).astype(np.float32)
+    #     return hsv_image
     def rgb_to_hsv(self, image):
-        # Manual RGB to HSV conversion
-        hsv_image = np.zeros_like(image, dtype=np.float32)
-        for i in range(len(image)):
-            for j in range(len(image[0])):
-                r, g, b = image[i, j]
-                r, g, b = r / 255.0, g / 255.0, b / 255.0
-                
-                cmax = max(r, g, b)
-                cmin = min(r, g, b)
-                delta = cmax - cmin
-                
-                if delta == 0:
-                    h = 0
-                elif cmax == r:
-                    h = (60 * ((g - b) / delta) + 360) % 360
-                elif cmax == g:
-                    h = (60 * ((b - r) / delta) + 120) % 360
-                else:
-                    h = (60 * ((r - g) / delta) + 240) % 360
-                
-                if cmax == 0:
-                    s = 0
-                else:
-                    s = (delta / cmax) * 100
-                
-                v = cmax * 100
-                
-                hsv_image[i, j] = np.array([h, s, v], dtype=np.float32)
-        
+        r, g, b = image[:, :, 0], image[:, :, 1], image[:, :, 2]
+        r, g, b = r / 255.0, g / 255.0, b / 255.0
+
+        cmax = np.maximum(np.maximum(r, g), b)
+        cmin = np.minimum(np.minimum(r, g), b)
+        delta = cmax - cmin
+
+        h = np.zeros_like(cmax)
+        s = np.zeros_like(cmax)
+        v = np.zeros_like(cmax)
+
+        mask = delta != 0
+        not_zero_delta = mask
+
+        cond1 = cmax == r
+        cond2 = cmax == g
+
+        h[mask & cond1] = (60 * (((g - b) / delta)[mask & cond1] % 6))
+        h[mask & cond2] = (60 * (((b - r) / delta)[mask & cond2] + 2))
+        h[mask & ~cond1 & ~cond2] = (60 * (((r - g) / delta)[mask & ~cond1 & ~cond2] + 4))
+
+        s[not_zero_delta] = (delta / cmax)[not_zero_delta] * 100
+
+        v[cmax != 0] = cmax[cmax != 0] * 100
+
+        hsv_image = np.dstack((h, s, v)).astype(np.float32)
         return hsv_image
-    
-    def calculate_manual_histogram(self, hsv_image):
-        # Manual histogram calculation
-        hist_bins = [8, 12, 3]
-        hist = np.zeros((hist_bins[0], hist_bins[1], hist_bins[2]))
 
-        h, w, _ = hsv_image.shape
+
         
-        for y in range(h):
-            for x in range(w):
-                pixel = hsv_image[y, x]
-                h_idx = int(pixel[0] / 360 * hist_bins[0])
-                s_idx = int(pixel[1] / 100 * hist_bins[1])
-                v_idx = int(pixel[2] / 100 * hist_bins[2])
+    # def calculate_manual_histogram(self, hsv_image):
+    #     # Optimized histogram calculation using NumPy operations
+    #     hist_bins = [8, 12, 3]
+    #     h, s, v = hsv_image[:, :, 0], hsv_image[:, :, 1], hsv_image[:, :, 2]
 
-                if h_idx == hist_bins[0]:
-                    h_idx -= 1
-                if s_idx == hist_bins[1]:
-                    s_idx -= 1
-                if v_idx == hist_bins[2]:
-                    v_idx -= 1
+    #     h_idx = (h / 360 * hist_bins[0]).astype(np.int)
+    #     s_idx = (s / 100 * hist_bins[1]).astype(np.int)
+    #     v_idx = (v / 100 * hist_bins[2]).astype(np.int)
 
-                hist[h_idx, s_idx, v_idx] += 1
+    #     h_idx = np.clip(h_idx, 0, hist_bins[0] - 1)
+    #     s_idx = np.clip(s_idx, 0, hist_bins[1] - 1)
+    #     v_idx = np.clip(v_idx, 0, hist_bins[2] - 1)
+
+    #     hist = np.zeros((hist_bins[0], hist_bins[1], hist_bins[2]))
+
+    #     for i in range(hsv_image.shape[0]):
+    #         for j in range(hsv_image.shape[1]):
+    #             hist[h_idx[i, j], s_idx[i, j], v_idx[i, j]] += 1
         
-        return hist
+    #     return hist
 
     def calculate_cosine_similarity(self, hist1, hist2):
         # Calculating cosine similarity manually
