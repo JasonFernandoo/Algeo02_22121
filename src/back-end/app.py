@@ -175,7 +175,7 @@ def calculate():
     if request.files:
         clearFolder(app.config["UPLOAD_FOLDER_IMAGE"])
         clearFolder(app.config["UPLOAD_FOLDER_DATASET"])
-        image = request.files["image"]
+        image = request.files["input-file"]
         dataset = request.files.getlist("dataset")
         # choice = request.form["choice"]
         filename = "image.jpg"

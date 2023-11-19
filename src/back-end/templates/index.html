@@ -22,6 +22,7 @@
     <link rel="stylesheet" type="text/css" href="../static/css/description.css">
     <link rel="stylesheet" type="text/css" href="../static/css/result.css">
     <link rel="stylesheet" type="text/css" href="../static/css/camera.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/pagination.css">
     <!--js files-->
     <script src="../static/js/home.js" defer></script>
     <script src="../static/js/image.js" defer></script>
@@ -32,7 +33,6 @@
     <script src="../static/js/autotype.js" defer></script>
     <script src="../static/js/background.js" defer></script>
     <script src="../static/js/camera.js" defer></script>
-    <script src="../static/js/pagination.js" defer></script>
     <!--scroll reveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <!--preloader-->
@@ -141,14 +141,11 @@
     <section class="image" id="image">
         <div class="container">
             <h2 class="img">REVERSE IMAGE SEARCH</h2>
-            <!-- upload data set -->
-            <input type="file" name="" dataset id="folderInput" webkitdirectory directory multiple style="display:none">
-            <button type="button" class="dataSet" id="uploadButton">Upload Data Set</button>
             <form id="form1" enctype="multipart/form-data" method="POST" action="/upload">
                 <!--input gambar-->
                 <div class="input-img">
                     <label for="input-file" id="drop-area">
-                        <input type="file" accept="image/*" id="input-file" name="input-file" hidden>
+                        <input type="file" accept="image/*" id="input-file" name="input-file" hidden/>
                         <div class="view-img" id="view-img">
                             <img class="img-view" src="../static/images/upload.png">
                             <p class="img">Drag and drop or click <br> to upload image</p>
@@ -164,14 +161,15 @@
                     <h2 class="img">File Name :</h2>
                     <figcaption id="file-name">No file chosen</figcaption>
                     <button type="button" id="captureButton" class="cameraButton">Camera</button>
-                    <div id="toggle" class="color" value="color">
+                    <button type="button" id="toggle" class="color" value="color" />
                         <i class="indicator"></i>
                         <div class="toggle-text">
                             <p class="color">color</p>
                             <p class="texture">texture</p>
                         </div>
-                    </div>
-                    <input type="submit" onclick="showResult()" id="search" class="search" value="Search">
+                    </button>
+                    <input type="file" name="dataset" multiple id="datasetInput" />   
+                    <input type="submit" onclick="showResult()" id="search" class="search" value="Search" />
                 </div>
             </form>
         </div>

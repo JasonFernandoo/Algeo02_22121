@@ -49,66 +49,90 @@ document.addEventListener('DOMContentLoaded', function () {
         }
     });
 
-    // Function to handle the received image data and display it with pagination
-    function handleImageData(data) {
-        var startTime = performance.now();
+    var startTime = performance.now();
 
-        // Get the image container
-        var container = document.getElementById("imageContainer");
-        container.innerHTML = ""; // Clear existing images
+        fetch("/color", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json",
+            },
+        })
+            .then((response) => response.json())
+            .then((data) => {
+                if (data) {
+                    var endTime = performance.now();
+                    var runtime = endTime - startTime;
 
-        // Create an img element for each image URL
-        data.forEach(function (item) {
-            var img = document.createElement("img");
-            img.src = item.image_url;
-            container.appendChild(img);
-        });
+                    // Get the image container
+                    var container = document.getElementById("imageContainer");
 
-        // Display pagination
-        displayPagination(data);
+                    // Create an img element for each image URL
+                    data.forEach(function (item) {
+                        var img = document.createElement("img");
+                        img.src = item.image_url;
+                        container.appendChild(img);
+                    });
 
-        var endTime = performance.now();
-        var runtime = endTime - startTime;
-        console.log("API fetch runtime: " + runtime + " milliseconds");
-    }
+                    // Display pagination
+                    displayPagination(data);
 
-    // Function to display pagination
-    function displayPagination(data) {
-        var container = document.getElementById("pagination");
-        var itemsPerPage = 6;
-        var totalPages = Math.ceil(data.length / itemsPerPage);
-
-        for (var i = 1; i <= totalPages; i++) {
-            var pageButton = document.createElement("button");
-            pageButton.textContent = i;
-
-            pageButton.addEventListener("click", function () {
-                var currentPage = parseInt(this.textContent);
-                showImagesPerPage(data, currentPage, itemsPerPage);
+                    console.log("API fetch runtime: " + runtime + " milliseconds");
+                }
+            })
+            .catch((error) => {
+                // Handle the error
+                console.error("Error:", error);
             });
 
-            container.appendChild(pageButton);
+        // Function to display pagination
+        function displayPagination(data) {
+            var container = document.getElementById("pagination");
+            var itemsPerPage = 8;
+            var totalPages = Math.ceil(data.length / itemsPerPage);
+        
+            var maxButtons = 10;
+            var currentPage = 1;
+        
+            if (totalPages > maxButtons) {
+                currentPage = Math.min(currentPage, totalPages - Math.floor(maxButtons / 2));
+            }
+        
+            for (var i = 0; i < Math.min(maxButtons, totalPages); i++) {
+                var pageButton = document.createElement("button");
+                var pageNumber = currentPage + i;
+        
+                if (pageNumber <= totalPages) {
+                    pageButton.textContent = pageNumber;
+        
+                    pageButton.addEventListener("click", function () {
+                        var currentPage = parseInt(this.textContent);
+                        showImagesPerPage(data, currentPage, itemsPerPage);
+                    });
+        
+                    container.appendChild(pageButton);
+                }
+            }
+        
+            // Show the first page by default
+            showImagesPerPage(data, 1, itemsPerPage);
         }
-
-        // Show the first page by default
-        showImagesPerPage(data, 1, itemsPerPage);
-    }
-
-    // Function to show images for a specific page
-    function showImagesPerPage(data, currentPage, itemsPerPage) {
-        var container = document.getElementById("imageContainer");
-        container.innerHTML = ""; // Clear existing images
-
-        var startIndex = (currentPage - 1) * itemsPerPage;
-        var endIndex = startIndex + itemsPerPage;
-
-        var pageImages = data.slice(startIndex, endIndex);
-
-        // Create an img element for each image URL
-        pageImages.forEach(function (item) {
-            var img = document.createElement("img");
-            img.src = item.image_url;
-            container.appendChild(img);
-        });
-    }
+        
+        // Function to show images for a specific page
+        function showImagesPerPage(data, currentPage, itemsPerPage) {
+            var container = document.getElementById("imageContainer");
+            container.innerHTML = ""; // Clear existing images
+        
+            var startIndex = (currentPage - 1) * itemsPerPage;
+            var endIndex = startIndex + itemsPerPage;
+        
+            var pageImages = data.slice(startIndex, endIndex);
+        
+            // Create an img element for each image URL
+            pageImages.forEach(function (item) {
+                var img = document.createElement("img");
+                img.src = item.image_url;
+                container.appendChild(img);
+            });
+        }
 });
+
