@@ -1,0 +1,35 @@
+.home{
+    position: relative;
+    min-height: 100vh;
+    width: auto;
+    background: url(../images/home_photo.jpg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.home-text {
+    width: 100%;
+    align-items: center;
+}
+.home-text .text{
+    position: relative;
+    font-family: 'MyWebFont', sans-serif;
+    color: #ffffff;
+    font-size: 6rem;
+    font-weight: 200;
+    text-align: center;
+    margin-right: 5px;
+}
+.home-p {
+    position: relative;
+    font-family: 'Alatsi', sans-serif;
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: 200;
+    text-align: center;
+    letter-spacing: 10px;
+}

@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    border: none;
+    outline: none;
+}
+
+:root {
+    --bg-color: rgb(0, 0, 0);
+    --main-color: #182752;  
+    --text-color: #ffffff;
+    --other-text-color: #000;
+}
+
+body{
+    background: url(../images/body_photo.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+section {
+    padding: 120px 5% 100px;
+}
+
+#image {
+    padding: 80px 5% 100px;
+    height: 100vh;
+}
+
+#preloader {
+    background: #000 url('../images/preloader.gif') no-repeat center center;
+    background-size: 20%;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+}
+
+@font-face {
+    font-family: 'MyWebFont';
+    src: url('../font/Maharlika-Regular.ttf') format('truetype');
+  }

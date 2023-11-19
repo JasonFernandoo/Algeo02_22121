@@ -1,0 +1,91 @@
+.result-tab {
+    background: rgba(255,255,255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    height: 0;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    transition: height 0.7s;
+    z-index: 2;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.result-tab.show {
+    z-index: 2;
+    height: 70vh;
+}
+.result-tab.shows {
+    z-index: 2;
+    height: 80vh;
+}
+.logo {
+    height: 2%;
+    width: 200px;
+    border-radius: 10px;
+    background: #b9b9b9;
+    margin-top: 1%;
+}
+.result-info {
+    border-top: 2px solid #b9b9b9;
+    border-bottom: 2px solid #b9b9b9;
+    margin-top: 2%;
+    height: 90%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+}
+.time-result {
+    height: 12%;
+    width: 100%;
+    padding: 1%;
+    border-bottom: 2px solid #b9b9b9;
+    display: flex;
+    flex-direction: row;
+}
+.time-result p {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.res {
+    width: 75%;
+}
+.time {
+    width: 25%;
+}
+.img-result {
+    height: 88%;
+    width: 100%;
+}
+.result-button {
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.result-button:hover {
+    cursor: pointer;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}

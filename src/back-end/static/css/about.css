@@ -1,0 +1,94 @@
+.about {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background: var(--bg-color);
+}
+.container-about {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.about-text {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+}
+.about-h1{
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    word-spacing: 15px; 
+    font-size: 3.5rem;
+    width: auto;
+    letter-spacing: 5px;
+}
+.wrapper {
+    width: 100%;
+    padding: 1%;
+  }
+  .wrapper .carousel{
+    display: flex;
+    flex-direction: row;
+    gap: 75px;
+    border-radius: 8px;
+  }
+  .carousel .card {
+    height: 342px;
+    width: 60%;
+    list-style: none;
+    cursor: pointer;
+  }
+  .card .card-div {
+    width: 100%;
+    height: 100%;
+    border: 5px solid rgba(255, 255, 255, 0.241);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 20px;
+  }
+  .card-div .card-img {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    object-fit: cover;
+  }
+  .card .card-div .card-body{
+    width: 100%;
+    height: 100%;
+    top: 100%;
+    right: 0;
+    position: absolute;
+    background: linear-gradient(45deg, rgba(255, 255, 255, 0.4) 0%, rgba(123,123,123,0.7) 25%, rgba(255,255,255,0.5) 50%, rgba(123,123,123,0.7) 75%, rgba(255, 255, 255, 0.4) 100%);  
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    padding: 30px;
+    color: #000000;
+    transition: 2s;
+  }
+  .card-div:hover .card-body{
+    top: 0;
+  }
+  .card-body .card-title{
+    font-family: 'MyWebFont', sans-serif;
+    text-transform: capitalize;
+    color: var(--main-color);
+    font-size: 3rem;
+    font-weight: 600;
+  }
+  .card-body .card-sub{
+    text-transform: capitalize;
+    color: #ffffff;
+    font-size: 2rem;
+    font-weight: 300;
+  }
+  .card-body .card-info{
+    text-align: justify;
+    color: #000000;
+    font-size: 1.05rem;
+    line-height: 25px;
+    margin: 40px 0;
+    font-weight: 400;
+  }

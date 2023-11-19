@@ -131,12 +131,15 @@
 #     app.run(debug=True)
 
 import os
-from flask import Flask, request, render_template, jsonify, redirect
+from flask import Flask, request, render_template, jsonify, redirect, url_for
 from flask_cors import CORS
 from driver_color import get_similar_color
 from driver_texture import get_similar_texture
+from jinja2 import Environment, FileSystemLoader
 import time
 
+
+# hard coded absolute path for testing purposes
 app = Flask(__name__, static_folder="static")
 CORS(app, origins=['http://127.0.0.1:5500/'])
 
@@ -157,7 +160,15 @@ def clearFolder(folder_path):
 
 @app.route("/", methods=["GET"])
 def index():
-    return render_template("indexs.html")
+    # print(os.path.isfile("../../src/front-end/templates/index.html"))
+    # template_dir = "../../src/front-end/"
+    # template_dir = "../../src/back-end/"
+    # env = Environment(loader=FileSystemLoader(template_dir))
+    # template = env.get_template("templates/index.html")
+    # css_file = url_for('static', filename='../../src/back-end/static/css')
+    
+    # return render_template(template, css_file=css_file)
+    return render_template("index.html")
 
 @app.route("/upload", methods=["POST"])
 def calculate():

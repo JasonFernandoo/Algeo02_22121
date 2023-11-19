@@ -1,120 +1,207 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tubes Bentar</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
-</head>
-
-<body>
-    <form id="form1" enctype="multipart/form-data" method="POST" action="/upload">
-        <input type="file" name="image" />
-        <input type="file" name="dataset" multiple />
-        <input type="radio" name="choice" value="color" /> Color
-        <input type="radio" name="choice" value="texture" />
-        Texture
-        <input type="submit" value="Submit" id="submitButton" />
-    </form>
-    <div id="imageContainer"></div>
-    <script>
-        document.getElementById("form1").addEventListener("submit", function (event) {
-            event.preventDefault(); // Prevents the default form submission behavior
-
-            
-            var startTime = performance.now();
-
-            fetch("/color", {
-                method: "POST",
-                headers: {
-                    "Content-Type": "application/json",
-                },
-            })
-                .then((response) => response.json())
-                .then((data) => {
-                    if (data) {
-                        var endTime = performance.now();
-                        var runtime = endTime - startTime;
-
-                        // Get the image container
-                        var container = document.getElementById("imageContainer");
-
-                        // Create an img element for each image URL
-                        data.forEach(function (item) {
-                            var img = document.createElement("img");
-                            img.src = item.image_url;
-                            container.appendChild(img);
-                        });
-
-                        console.log("API fetch runtime: " + runtime + " milliseconds");
-                    }
-                })
-                .catch((error) => {
-                    // Handle the error
-                    console.error("Error:", error);
-                });
-        });
-    </script>
-</body>
-
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tubes Bentar</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tubes Algeo 02</title>
 
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Agbalumo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alatsi&display=swap" rel="stylesheet">
+    <!--css file-->
+    <link rel="stylesheet" type="text/css" href="../static/css/style.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/home.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/image.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/about.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/description.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/result.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/camera.css">
+    <!--js files-->
+    <script src="../static/js/home.js" defer></script>
+    <script src="../static/js/image.js" defer></script>
+    <script src="../static/js/toggle.js" defer></script>
+    <script src="../static/js/reveal.js" defer></script>
+    <script src="../static/js/result.js" defer></script>
+    <script src="../static/js/dataset.js" defer></script>
+    <script src="../static/js/autotype.js" defer></script>
+    <script src="../static/js/background.js" defer></script>
+    <script src="../static/js/camera.js" defer></script>
+    <script src="../static/js/pagination.js" defer></script>
+    <!--scroll reveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!--preloader-->
+    <script src="../static/js/preloader.js" defer></script>
+    <!--pagination-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
 
 </head>
 
-<body>-
-    <form id="form1" enctype="multipart/form-data" method="POST" action="/upload">
-        <input type="file" name="image" />
-        <input type="file" name="dataset" multiple />
-        <input type="radio" name="choice" value="color" /> Color
-        <input type="radio" name="choice" value="texture" />
-        Texture
-        <input type="submit" value="Submit" />
-    </form>
-    <div id="imageContainer"></div>
-    <script>
-        var startTime = performance.now();
+<body>
+    <!--Preloader-->
+    <div id="preloader"></div>
 
-        fetch("/color", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-        })
-            .then((response) => response.json())
-            .then((data) => {
-                if (data) {
-                    var endTime = performance.now();
-                    var runtime = endTime - startTime;
+    <!--home section-->
+    <section class="home" id="home">
+        <!--tulisan di home section-->
+        <div class="home-text">
+            <div id="hometext" class="text title-text"></div>
+            <p class="home-p">REVERSE IMAGE SEARCH</p>
+        </div>
+    </section>
 
-                    // Get the image container
-                    var container = document.getElementById("imageContainer");
+    <!--about section-->
+    <section class="about" id="about">
+        <div class="container-about">
+            <div class="about-text">
+                <h1 class="about-h1">ABOUT US</h1>
+            </div>
+            <div class="wrapper">
+                <ul class="carousel">
+                    <li class="card">
+                        <div class="card-div">
+                            <img src="../static/images/about-tara.jpg" class="card-img" alt="img" draggable="false">
+                            <div class="card-body">
+                                <h1 class="card-title">Attara</h1>
+                                <h2 class="card-sub">Majesta Ayub</p>
+                                    <p class="card-info">halo aku attara teknik informatika'22</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="card-div">
+                            <img src="../static/images/about-jojo.jpg" class="card-img" alt="img" draggable="false">
+                            <div class="card-body">
+                                <h1 class="card-title">Jonathan</h1>
+                                <h2 class="card-sub">Emmanuel Saragih</p>
+                                    <p class="card-info">yang merasa lelaki di foto ini lumayan ganteng bisa kontak ID
+                                        Line dibawah<br><br>ID Line :jonathansaragih_123</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="card">
+                        <div class="card-div">
+                            <img src="../static/images/about-jb.jpg" class="card-img" alt="img" draggable="false">
+                            <div class="card-body">
+                                <h1 class="card-title">Jason</h1>
+                                <h2 class="card-sub">Fernando</p>
+                                    <p class="card-info">jalan-jalan ke kota kudus<br>jangan lupa membeli kardus<br>agar
+                                        silahturahmi tidak terputus<br>bolelah kasih nilai 100</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
 
-                    // Create an img element for each image URL
-                    data.forEach(function (item) {
-                        var img = document.createElement("img");
-                        img.src = item.image_url;
-                        container.appendChild(img);
-                    });
+    <!--description section-->
+    <section class="description" id="description">
+        <h1 class="desc-h1">WHAT IS<span class="title-desc"> MIRROR</span></h1>
+        <div class="product">
+            <div id="text" class="product-p"></div>
+        </div>
+        <div class="how-to">
+            <div class="timeline">
+                <div class="container-desc left-container">
+                    <div class="text-desc left-text">
+                        <h2>Step 1</h2>
+                        <p>Image Upload: You can easily upload your image in a few clicks.
+                            We support a wide range of image formats (JPG, JPEG, etc.)</p>
+                    </div>
+                </div>
+                <div class="container-desc right-container">
+                    <div class="text-desc">
+                        <h2>Step 2</h2>
+                        <p> - Search by Color: Discover images that share similar color palettes with your uploaded
+                            image. <br><br>
+                            - Search by Texture: Find images with textures and patterns that match the one you've
+                            uploaded. </p>
+                    </div>
+                </div>
+                <div class="container-desc left-container">
+                    <div class="text-desc left-text">
+                        <h2>Step 3</h2>
+                        <p>Results Sorting: Our advanced algorithm quantitatively ranks the search results from the most
+                            to least visually similar.
+                            You can quickly find images that closely resemble your query.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-                    console.log("API fetch runtime: " + runtime + " milliseconds");
-                }
-            })
-            .catch((error) => {
-                // Handle the error
-                console.error("Error:", error);
-            });
-    </script>
+    <!--image-search section-->
+    <section class="image" id="image">
+        <div class="container">
+            <h2 class="img">REVERSE IMAGE SEARCH</h2>
+            <!-- upload data set -->
+            <input type="file" name="" dataset id="folderInput" webkitdirectory directory multiple style="display:none">
+            <button type="button" class="dataSet" id="uploadButton">Upload Data Set</button>
+            <form id="form1" enctype="multipart/form-data" method="POST" action="/upload">
+                <!--input gambar-->
+                <div class="input-img">
+                    <label for="input-file" id="drop-area">
+                        <input type="file" accept="image/*" id="input-file" name="input-file" hidden>
+                        <div class="view-img" id="view-img">
+                            <img class="img-view" src="../static/images/upload.png">
+                            <p class="img">Drag and drop or click <br> to upload image</p>
+                        </div>
+                        <div class="canvasContainer">
+                            <canvas class="captureCanvas" id="capturedCanvas"></canvas>
+                            <img class="captureImage" id="capturedImage">
+                        </div>
+                    </label>
+                </div>
+                <!--mencari gambar-->
+                <div class="search-img">
+                    <h2 class="img">File Name :</h2>
+                    <figcaption id="file-name">No file chosen</figcaption>
+                    <button type="button" id="captureButton" class="cameraButton">Camera</button>
+                    <div id="toggle" class="color" value="color">
+                        <i class="indicator"></i>
+                        <div class="toggle-text">
+                            <p class="color">color</p>
+                            <p class="texture">texture</p>
+                        </div>
+                    </div>
+                    <input type="submit" onclick="showResult()" id="search" class="search" value="Search">
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!--camera section-->
+    <div class="cameraContainer" id="cameraContainer">
+        <video class="cameraFeed" id="cameraFeed" width="640" height="480" autoplay></video>
+        <div class="countdownOverlay" id="countdownOverlay"></div>
+        <div class="logo-camera"></div>
+    </div>
+    <!--result section-->
+    <div class="result-tab" id="result-tab">
+        <div class="logo"></div>
+        <div class="result-info" id="result-info">
+            <div class="time-result" id="time-result">
+                <div class="res">
+                    <p>Result :</p>
+                </div>
+                <div class="time">
+                    <p>Time :</p>
+                </div>
+            </div>
+            <div class="img-result" id="img-result">
+                <div id="imageContainer"></div>
+                <div id="pagination"></div>
+            </div>
+        </div>
+        <button type="button" class="result-button" id="result-button">Upload</button>
+    </div>
 </body>
 
 </html>

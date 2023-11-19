@@ -1,0 +1,148 @@
+.description {
+    position: relative;
+    min-height: 40vh;
+    width: auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.product {
+    height: 20%;
+    width: 80%;
+    margin: auto;
+}
+.desc-h1 {
+    font-family: 'Alatsi', sans-serif;
+    color: white;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+}
+.how-to {
+    margin-top: 4%;
+}
+.desc-h2 {
+    color: white;
+    font-family: 'Alatsi', sans-serif;
+    font-size: 3rem;
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+}
+.title-desc {
+    color: white;
+    font-family: 'MyWebFont', sans-serif;
+    font-size: 3rem;
+    width: 100%;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 1%;
+}
+.product-p {
+    text-align: center;
+    margin-top: 10px;
+    font-family: 'poppins', sans-serif;
+    color: var(--text-color);
+    font-size: 1.25rem;
+}
+.timeline {
+    position: relative;
+    max-width: 1200px;
+    margin: auto;
+}
+.animate-container-desc {
+    padding: 10px 50px;
+    position: relative;
+    width: 50%;
+    animation: movedown 1s linear forwards;
+    opacity: 0;
+}
+
+@keyframes movedown {
+    0%{
+        opacity: 1;
+        transform: translateY(-30px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
+.container-desc:nth-child(1){
+    animation-delay: 0s;
+}
+.container-desc:nth-child(2){
+    animation-delay: 1s;
+}
+.container-desc:nth-child(3){
+    animation-delay: 2s;
+}
+.container-desc:nth-child(4){
+    animation-delay: 3s;
+}
+.container-desc:nth-child(5){
+    animation-delay: 4s;
+}
+.container-desc:nth-child(6){
+    animation-delay: 5s;
+}
+
+.text-desc{
+    padding: 20px 30px;
+    background: rgba(255,255,255, .1);
+    backdrop-filter: blur(10px);
+    color: white;
+    position: relative;
+    border-radius: 6px;
+    font-size: 20px;
+}
+.left-container {
+    left: 0;
+}
+.left-text {
+    text-align: right;
+}
+.right-container {
+    left: 50%;
+}
+.timeline::after{
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 100%;
+    background: white;
+    top: 0;
+    left: 50%;
+    margin-left: -3px;
+    z-index: -1;
+    animation: moveline 3s linear forwards;
+}
+@keyframes moveline {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .timeline::after{
+        left: 31px;
+    }
+    .container-desc {
+        width: 100%;
+        padding-left: 80px;
+        padding-right: 25px;
+    }
+    .text-desc {
+        font-size: 13px;
+    }
+    .left-text {
+        text-align: left;
+    }
+    .right-container {
+        left: 0;
+    }
+}

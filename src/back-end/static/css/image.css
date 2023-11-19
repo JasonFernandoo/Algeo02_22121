@@ -1,0 +1,218 @@
+.container {
+    position: absolute;
+    width: 90%;
+    min-height: 70vh;
+    background: rgba(255,255,255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 50px;
+    backdrop-filter: blur(5px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3%;    
+}
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 1%;
+}
+.container h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #fff;
+    font-size: 2.5rem;
+}
+.dataSet {
+    margin-top: 2%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
+}
+.dataSet:hover {
+    margin-top: 2%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
+}
+
+/* css input image */
+.input-img {
+    width: 60%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#drop-area{
+    width: 90%;
+    height: 90%;
+    padding: 30px;
+    text-align: center;
+    background: rgba(255,255,255, .1);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, .2);
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+
+}
+.view-img{
+    width: 100%;
+    height: 100%;
+    padding: 7%;
+    border-radius: 20px;
+    border: 3px dashed var(--text-color);
+    background-position: center;
+    background-size: cover;
+}
+.view-img p{
+    font-size: 1.5rem;
+}
+.canvasContainer {
+    border-radius: 20px;
+    margin-top: -300px;
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+.captureCanvas {
+    border-radius: 20px;
+    border: none;
+    height: 101%;
+    width: 100%;
+}
+.captureImage {
+    display: none;
+    border-radius: 20px;
+    border: none;
+    height: 100%;
+    width: 100%;
+}
+.img {
+    color: white;
+}
+
+/* css search image */
+.search-img {
+    margin-top: 2%;
+    width: 40%;
+    height: 48vh;
+    border-left: 3px solid #fff;
+    padding-left: 4%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+figcaption {
+    font-size: 25px;
+    color: white;
+}
+.cameraButton {
+    margin-top: 10%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
+}
+.cameraButton:hover {
+    margin-top: 10%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
+#toggle {
+    margin-top: 14.5vh;
+    position: relative;
+    display: block;
+    width: 90px;
+    height: 20px;
+    background: #222;
+    box-shadow: inset 0 4px 60px rgba(0, 0, 0, 0.3),
+                inset 0 4px 4px rgba(0, 0, 0, 0.3),
+                inset 0 -2px 2px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#toggle .indicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: linear-gradient(to bottom, #333, #222);
+    transform: scale(0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5),
+                inset 0 1px 1px rgba(255,255,255, 0.2),
+                inset 0 1px 1px rgba(255,255,255, 0.2);
+    transition: 0.5s;
+}
+#toggle.texture .indicator {
+    left: 70px;
+}
+.toggle-text {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -60px;
+    margin-left: -50px;
+    font-size: 18px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.color {
+    color: #5c71a9;
+}
+.texture {
+    color: white;
+}
+.search {
+    margin-top: 3%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466;
+    cursor: pointer;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    transition: all ease .50s;
+}
+.search:hover {
+    margin-top: 3%;
+    width: 260px;
+    height: 40px;
+    border-radius: 20px;
+    border: 3px solid #223466;
+    background: #223466a0;
+    cursor: pointer;
+    font-size: 28px;
+    color: white;
+    text-align: center;
+}
