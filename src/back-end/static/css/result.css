@@ -21,7 +21,7 @@
 }
 .result-tab.shows {
     z-index: 2;
-    height: 80vh;
+    height: 82vh;
 }
 .logo {
     height: 2%;
@@ -60,7 +60,7 @@
     width: 25%;
 }
 .img-result {
-    height: 88%;
+    height: 89%;
     width: 100%;
 }
 .result-button {
